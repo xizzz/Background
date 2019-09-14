@@ -6,21 +6,31 @@
         <link href="/css/style.css" rel="stylesheet">
         <script src="https://cdn.bootcss.com/mdui/0.4.3/js/mdui.min.js"></script>
     </head>
-    <body>
-        <body class="mdui-theme-layout-dark mdui-drawer-body-left mdui-appbar-with-toolbar">
+    <body class="mdui-theme-layout-dark mdui-appbar-with-toolbar">
                     <!-- 工   具   栏 -->
-        <div class="mdui-appbar mdui-color-theme mdui-appbar-fixed mdui-shadow-0">
-            <div  id="toolbar" class="mdui-toolbar  mdui-color-white mdui-shadow-2">
-<span class="mdui-typo-title">移动设备处理器排行榜</span>
-<div class="mdui-toolbar-spacer"></div>
-<div id="search" class="mdui-textfield mdui-textfield-expandable mdui-float-right">
-<button class="mdui-textfield-icon mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></button>
-<input class="mdui-textfield-input" type="text" placeholder="Search"/>
-<button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
+    <div class="mdui-appbar mdui-color-theme mdui-appbar-fixed mdui-shadow-0">
+        <div  id="toolbar" class="mdui-toolbar  mdui-color-white mdui-shadow-2">
+            <span class="mdui-typo-title">移动设备处理器排行榜</span>
+            <div class="mdui-toolbar-spacer"></div>
+            <div id="search" class="mdui-textfield mdui-textfield-expandable mdui-float-right">
+               <button class="mdui-textfield-icon mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></button>
+               <input class="mdui-textfield-input" type="text" placeholder="Search"/>
+               <button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
+        </div>
+            <a href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="dayModeFunction()" mdui-tooltip="{content: '点击/双击开关'}" ondblclick="darkModeFunction()">
+                <i id="changeColor"  class="mdui-icon material-icons">brightness_4</i></a>
+            <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
+    </div>
 </div>
-<a href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="dayModeFunction()" mdui-tooltip="{content: '点击/双击开关'}" ondblclick="darkModeFunction()"><i id="changeColor"  class="mdui-icon material-icons">brightness_4</i></a>
-<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
-</div>
-</div>
+                                         <!-----------            主体         -------------->
+     <div id="card" class="mdui-container mdui-card mdui-color-theme mdui-center">
+        <div id="appleA13" class="mdui-card mdui-color-black mdui-m-t-4 mdui-btn-raised">Apple A13</div>
+        <div id="appleA12X" class="mdui-card mdui-color-pink mdui-m-t-4 mdui-btn-raised">Apple A12X</div>
+        <div id="appleA12" class="mdui-card mdui-color-pink mdui-m-t-4 mdui-btn-raised">Apple A11</div>
+        <div id="snapdragon855plus" class="mdui-card mdui-color-red mdui-m-t-4 mdui-btn-raised">Snapdragon 855 Plus</div>
+        <div id="snapdragon855" class="mdui-card mdui-color-red mdui-m-t-4 mdui-btn-raised">Snapdragon 855</div>
+        <div id="snapdragon845" class="mdui-card mdui-color-red mdui-m-t-4 mdui-btn-raised">Snapdragon 845</div>
+        <div id="snapdragon835" class="mdui-card mdui-color-red mdui-m-t-4 mdui-btn-raised">Snapdragon 835</div>
+     </div>
     </body>
 </html>

@@ -1,6 +1,6 @@
 #card{
     margin: 0 auto;
-    height: 800px;
+    height: 900px;
     width: 80%;
 }
 #appleA13{
@@ -52,3 +52,9 @@
     font-size: 28px;
     text-indent:10px;
 }
+@media screen and (max-width:1000px) { 
+    #card {width: 90%}  
+    } 
+@media screen and (max-width:500px) { 
+    #card {width: 50%}  
+    } 

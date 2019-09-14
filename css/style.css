@@ -52,9 +52,9 @@
     font-size: 28px;
     text-indent:10px;
 }
-@media screen and (max-width:1000px) { 
+@media screen and (max-width:800px) { 
     #card {width: 99%}  
     } 
-@media screen and (max-width:500px) { 
+@media screen and (max-width:400px) { 
     #card {width: 50%}  
     } 

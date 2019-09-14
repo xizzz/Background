@@ -7,40 +7,48 @@
     height: 5%;
     width: 100%;
     font-size: 28px;
+    text-indent:10px;
 }
 #appleA12{
     height: 5%;
     width: 85%;
     font-size: 28px;
+    text-indent:10px;
 }
 #appleA12X{
     height: 5%;
     width: 90%;
     font-size: 28px;
+    text-indent:10px;
 }
 #appleA11{
     height: 5%;
     width: 100%;
     font-size: 28px;
+    text-indent:10px;
 }
 
 #snapdragon855plus{
     height: 5%;
     width: 80%;
     font-size: 28px;
+    text-indent:10px;
 }
 #snapdragon855{
     height: 5%;
     width: 75%;
     font-size: 28px;
+    text-indent:10px;
 }
 #snapdragon845{
     height: 5%;
     width: 70%;
     font-size: 28px;
+    text-indent:10px;
 }
 #snapdragon835{
     height: 5%;
     width: 65%;
     font-size: 28px;
+    text-indent:10px;
 }

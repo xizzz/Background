@@ -53,7 +53,7 @@
     text-indent:10px;
 }
 @media screen and (max-width:1000px) { 
-    #card {width: 90%}  
+    #card {width: 99%}  
     } 
 @media screen and (max-width:500px) { 
     #card {width: 50%}  

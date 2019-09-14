@@ -24,13 +24,21 @@
 </div>
                                          <!-----------            主体         -------------->
      <div id="card" class="mdui-container mdui-card mdui-color-theme mdui-center">
-        <div id="appleA13" class="mdui-card mdui-color-black mdui-m-t-4 mdui-btn-raised">Apple A13</div>
-        <div id="appleA12X" class="mdui-card mdui-color-pink mdui-m-t-4 mdui-btn-raised">Apple A12X</div>
-        <div id="appleA12" class="mdui-card mdui-color-pink mdui-m-t-4 mdui-btn-raised">Apple A11</div>
+        <div id="appleA13" class="mdui-card mdui-color-amber mdui-m-t-4 mdui-btn-raised">Apple A13</div>
+        <div id="appleA12X" class="mdui-card mdui-color-white mdui-m-t-4 mdui-btn-raised">Apple A12X</div>
+        <div id="appleA12" class="mdui-card mdui-color-white mdui-m-t-4 mdui-btn-raised">Apple A11</div>
         <div id="snapdragon855plus" class="mdui-card mdui-color-red mdui-m-t-4 mdui-btn-raised">Snapdragon 855 Plus</div>
         <div id="snapdragon855" class="mdui-card mdui-color-red mdui-m-t-4 mdui-btn-raised">Snapdragon 855</div>
         <div id="snapdragon845" class="mdui-card mdui-color-red mdui-m-t-4 mdui-btn-raised">Snapdragon 845</div>
         <div id="snapdragon835" class="mdui-card mdui-color-red mdui-m-t-4 mdui-btn-raised">Snapdragon 835</div>
      </div>
     </body>
+    <script>
+            function dayModeFunction(){
+               $('body').removeClass('mdui-theme-layout-dark');
+        }
+            function darkModeFunction(){
+               $('body').addClass('mdui-theme-layout-dark');
+        }
+    </script>
 </html>

@@ -7,39 +7,41 @@
         <link href="/css/style.css" rel="stylesheet">
         <script src="https://cdn.bootcss.com/mdui/0.4.3/js/mdui.min.js"></script>
     </head>
-    <body class="mdui-theme-layout-dark mdui-appbar-with-toolbar">
+    <body class="mdui-theme-white mdui-appbar-with-toolbar">
                     <!-- 工   具   栏 -->
-    <div class="mdui-appbar mdui-color-theme mdui-appbar-fixed mdui-shadow-0">
-        <div  id="toolbar" class="mdui-toolbar  mdui-color-white mdui-shadow-2">
-            <span class="mdui-typo-title">移动设备处理器排行榜</span>
+    <div class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-toolbar-hide">
+        <div  id="toolbar" class="mdui-toolbar  mdui-shadow-2">
+            <span class="mdui-typo-title">小园生活</span>
             <div class="mdui-toolbar-spacer"></div>
             <div id="search" class="mdui-textfield mdui-textfield-expandable mdui-float-right">
                <button class="mdui-textfield-icon mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></button>
                <input class="mdui-textfield-input" type="text" placeholder="Search"/>
                <button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
         </div>
-            <a href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="dayModeFunction()" mdui-tooltip="{content: '点击/双击开关'}" ondblclick="darkModeFunction()">
-                <i id="changeColor"  class="mdui-icon material-icons">brightness_4</i></a>
             <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
     </div>
-</div>
-                                         <!-----------            主体         -------------->
-     <div id="card" class="mdui-card mdui-color-theme mdui-center">
-        <div id="appleA13" class="mdui-card mdui-color-amber mdui-m-t-4 mdui-m-l-2 mdui-m-r-2 mdui-btn-raised">Apple A13</div>
-        <div id="appleA12X" class="mdui-card mdui-color-white mdui-m-t-4 mdui-m-l-2 mdui-m-r-2  mdui-btn-raised">Apple A12X</div>
-        <div id="appleA12" class="mdui-card mdui-color-white mdui-m-t-4 mdui-m-l-2 mdui-m-r-2  mdui-btn-raised">Apple A11</div>
-        <div id="snapdragon855plus" class="mdui-card mdui-color-red mdui-m-t-4 mdui-m-l-2 mdui-m-r-2  mdui-btn-raised">Snapdragon 855 Plus</div>
-        <div id="snapdragon855" class="mdui-card mdui-color-red mdui-m-t-4 mdui-m-l-2 mdui-m-r-2  mdui-btn-raised">Snapdragon 855</div>
-        <div id="snapdragon845" class="mdui-card mdui-color-red mdui-m-t-4 mdui-m-l-2 mdui-m-r-2  mdui-btn-raised">Snapdragon 845</div>
-        <div id="snapdragon835" class="mdui-card mdui-color-red mdui-m-t-4 mdui-m-l-2 mdui-m-r-2  mdui-btn-raised">Snapdragon 835</div>
-     </div>
-    </body>
-    <script>
-            function dayModeFunction(){
-               $('body').removeClass('mdui-theme-layout-dark');
-        }
-            function darkModeFunction(){
-               $('body').addClass('mdui-theme-layout-dark');
-        }
-    </script>
+    </div>
+      
+    <div id="card" class="mdui-shadow-4">
+            <p>兼职信息:XXXXX</p>
+        <h1>XXXXXXXXXX</h1>
+        <h2>XXXXXXXXXXXXX</h2>
+        
+        
+    </div>
+    
+    <div id="card" class="mdui-shadow-4">
+         <p>兼职信息:XXXXX</p>
+       </div>
+    
+    <div id="card" class="mdui-shadow-4">
+            <p>兼职信息:XXXXX</p>
+       </div>
+    
+    <div id="card" class="mdui-shadow-4">
+            <p>兼职信息:XXXXX</p>
+       </div>
+
+
+         </body>
 </html>

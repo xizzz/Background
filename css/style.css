@@ -1,58 +1,14 @@
 #card{
-    margin: 0 auto;
-    height: 900px;
-    width: 80%;
-}
-#appleA13{
-    height: 4%;
-    width: 99%;
-    font-size: 28px;
-    text-indent:10px;
-}
-#appleA12{
-    height: 4%;
-    width: 85%;
-    font-size: 28px;
-    text-indent:10px;
-}
-#appleA12X{
-    height: 4%;
+    height: 200px;
     width: 90%;
-    font-size: 28px;
-    text-indent:10px;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+    border-radius: 5px;
 }
-#appleA11{
-    height: 4%;
-    width: 100%;
-    font-size: 28px;
-    text-indent:10px;
+p{
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: -10px;
+    text-shadow: 10px 10px 5px #8C9EFF;
 }
-
-#snapdragon855plus{
-    height: 4%;
-    width: 80%;
-    font-size: 28px;
-    text-indent:10px;
-}
-#snapdragon855{
-    height: 4%;
-    width: 75%;
-    font-size: 28px;
-    text-indent:10px;
-}
-#snapdragon845{
-    height: 4%;
-    width: 70%;
-    font-size: 28px;
-    text-indent:10px;
-}
-#snapdragon835{
-    height: 4%;
-    width: 65%;
-    font-size: 28px;
-    text-indent:10px;
-}
-@media screen and (max-width:600px) { 
-    #card {width: 100%}  
-    } 
-

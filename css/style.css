@@ -1,14 +1,63 @@
-#card{
+#card1{
+    height: 200px;
+    width: 90%;
+    background-color: #5C6BC0;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#card2{
+    height: 200px;
+    width: 90%;
+    background-color: #42A5F5;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#card3{
+    height: 200px;
+    width: 90%;
+    background-color: #E91E63;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#card4{
+    height: 200px;
+    width: 90%;
+    background-color: #009688;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#card5{
     height: 200px;
     width: 90%;
     background-color: #F5F5F5;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+#card6{
+    height: 200px;
+    width: 90%;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 p{
     font-size: 24px;
     text-align: center;
     position: relative;
     top: -10px;
-    text-shadow: 10px 10px 5px #8C9EFF;
+    color: #424242;
+}
+span{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 8%;
+}
+.list{
+    text-align: center;
+}
+h1{ 
+    text-indent: 6px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F5F5F5;
 }

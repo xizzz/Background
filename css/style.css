@@ -1,3 +1,4 @@
+
 #name{
     font-size: 36px;
     color: #009688;
@@ -26,10 +27,16 @@
 #banner{
     height: 300px;
     width: 75%;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 200px;
     background: #009688;
     border-radius: 20px;
+}
+
+#class{
+    font-size: 36px;
+    margin-top: 20px;
+    margin-left: 200px;
 }
 
 #card{

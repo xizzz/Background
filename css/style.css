@@ -1,63 +1,42 @@
-#card1{
-    height: 200px;
-    width: 90%;
-    background-color: #5C6BC0;
-    margin: 0 auto;
-    border-radius: 10px;
+#name{
+    font-size: 36px;
+    color: #009688;
+    margin-left: 200px;
 }
-#card2{
-    height: 200px;
-    width: 90%;
-    background-color: #42A5F5;
-    margin: 0 auto;
-    border-radius: 10px;
+#topnamediv{
+    color: #009688;
 }
-#card3{
-    height: 200px;
-    width: 90%;
-    background-color: #E91E63;
-    margin: 0 auto;
-    border-radius: 10px;
-}
-#card4{
-    height: 200px;
-    width: 90%;
-    background-color: #009688;
-    margin: 0 auto;
-    border-radius: 10px;
-}
-#card5{
-    height: 200px;
-    width: 90%;
-    background-color: #F5F5F5;
-    margin: 0 auto;
-    border-radius: 10px;
-}
-#card6{
-    height: 200px;
-    width: 90%;
-    background-color: #F5F5F5;
-    margin: 0 auto;
-    border-radius: 10px;
-}
-p{
-    font-size: 24px;
-    text-align: center;
-    position: relative;
-    top: -10px;
-    color: #424242;
-}
-span{
-    font-size: 18px;
-    font-weight: 700;
-    margin-left: 8%;
-}
-.list{
-    text-align: center;
-}
-h1{ 
-    text-indent: 6px;
+#topname1 {
     font-size: 20px;
-    line-height: 20px;
-    color: #F5F5F5;
+    margin: 5px;
+}
+#topname2 {
+    font-size: 20px;
+    margin: 5px;
+}
+#topname3 {
+    font-size: 20px;
+    margin: 5px;
+}
+#topname4 {
+    font-size: 20px;
+    margin-right: 200px;
+}
+
+#banner{
+    height: 300px;
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 200px;
+    background: #009688;
+    border-radius: 20px;
+}
+
+#card{
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 200px;
+    background: #009688;
+    border-radius: 20px;
 }

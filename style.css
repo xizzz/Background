@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a {
+  text-decoration:none;
+  color: #212121;
+} 
+#a-href{
+    color: #FF4081;
+}
+#name{
+    font-size: 34px;
+    font-weight: 600;
+    color:#212121;
+    margin-left: 11%;
+}
+#topnamediv{
+    color: #212121;
+    font-weight: 600;
+}
+#topname1 {
+    font-size: 23px;
+    margin: 8px;
+}
+#topname2 {
+    font-size: 23px;
+    margin: 8px;
+}
+#topname3 {
+    font-size: 23px;
+    margin: 8px;
+}
+#topname4 {
+    font-size: 23px;
+    margin: 8px;
+    margin-right: 200px;
+}
+#show-div{
+    font-weight: 500;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-left: 21%;
+}
+#banner{
+    height: 220px;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 20%;
+    background: #3F51B5;
+    box-shadow: 0px 5px 40px rgb(90, 151, 224);
+    border-radius: 20px;
+}
+#banner-img{
+    height: 500px;
+    width: 100%;
+}
+#banner-span{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 17%;
+    font-size: 54px;
+    color: white;    
+}
+#class-div{
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 21%;
+}
+
+#more{
+    font-weight: 400;
+    font-size: 24px;
+    color:  #448AFF;
+    float: left;
+    margin-top: 190px;
+    margin-left: 20px;
+}
+
+
+#class-card1{
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15%;
+    background: #81B900;
+    box-shadow: 0px 3px 40px rgb(157, 184, 93);
+    animation-duration: 1s;
+    border-radius: 10px;
+}
+#class-card2{
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #EEB211;
+    box-shadow: 0px 3px 40px #FFF59D;
+    border-radius: 10px;
+}
+#class-card3{
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #424242;
+    box-shadow: 0px 3px 40px #424242;
+    border-radius: 10px;
+}
+#class-card4{
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #2196F3;
+    box-shadow: 0px 3px 40px #64B5F6;
+    border-radius: 10px;
+}
+#class-name{
+    color: white; 
+    font-size: 36px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 65px;
+}
+#fixed-help{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 82%;
+    height: 400px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 40px #64B5F6;
+    background-color: #448AFF;
+}
+#ad{
+    width: 50px; 
+    word-wrap: break-word; 
+    letter-spacing: 80px; 
+    font-size: 64px;
+    color:white;
+}
+#main{
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 21%;
+}
+#img{
+    height: 200px;
+    width: 420px;
+    border-radius: 20px;
+}
+#card1{
+    height: 200px;
+    width: 420px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15%;
+    background: #009688;
+    box-shadow: 0px 5px 15px #9e9e9e;
+    border-radius: 20px;
+}
+#card2{
+    height: 200px;
+    width: 420px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #009688;
+    box-shadow: 0px 5px 15px #9e9e9e;
+    border-radius: 20px;
+}
+#card3{
+    height: 200px;
+    width: 420px;
+    float: left;
+    margin-top: 45px;
+    margin-left: 15%;
+    background: #009688;
+    box-shadow: 0px 5px 15px #9e9e9e;
+    border-radius: 20px;
+}
+#card4{
+    height: 200px;
+    width: 420px;
+    float: left;
+    margin-top: 45px;
+    margin-left: 20px;
+    background: #009688;
+    box-shadow: 0px 5px 15px #9e9e9e;
+    border-radius: 20px;
+}
+#main-card1-span{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+#main-card2-span{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+#main-card3-span{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+#main-card4-span{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+#microsoft-span{
+    font-size: 36px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 21%;
+}
+#google-span{
+    font-size: 36px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 21%;
+}
+#apple-span{
+    font-size: 36px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 21%;
+}
+#design-span{
+    font-size: 36px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 21%;
+}
+#fluentdesign-span{
+    font-size: 36px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 21%;
+}
+#pay-span{
+    font-size: 36px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 21%;
+}
+#background-img{
+    height: 100px;
+    width: 200px;   
+}
+#wallpaper-card1{
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15%;
+    background: #9575CD;
+    box-shadow: 0px 5px 15px #90CAF9;
+    border-radius: 20px;
+}
+#wallpaper-card2{
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #9575CD;
+    box-shadow: 0px 5px 20px  #90CAF9;
+    border-radius: 20px;
+}
+#wallpaper-card3{
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #9575CD;
+    box-shadow: 0px 5px 20px #90CAF9;
+    border-radius: 20px;
+}
+#wallpaper-card4{
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #9575CD;
+    box-shadow: 0px 5px 40px #90CAF9;
+    border-radius: 20px;
+}
+
+#wallpaper-more{
+    font-weight: 400;
+    font-size: 24px;
+    color:  #448AFF;
+    float: left;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+#footer-span{
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 21%;
+    margin-bottom: 20px;
+}
+#footer{
+    height: 180px;
+    width: 100%;
+    position: absolute;
+    background-color: #3F51B5;
+}
+
+#product-photo{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20%;
+    height: 280px;
+    width: 280px;
+    background-color:#009688;
+}
+#details{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 600px;
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 280px;
+    width: 320px;
+    font-size: 24px;
+}
+#buy-buttom{
+    height: 40px;
+    width: 80px;
+    position: relative;
+    margin-top: 100px;
+    margin-right: 0px;
+    border-radius: 20px;
+    background-color: #448AFF;
+}
+#title{
+    font-size: 42px;
+}
+#price{
+    margin-top: 20px;
+}
+#buy{
+    text-align: center;
+    color: cornsilk;
+    padding-top: 8px;
+    font-size: 18px;
+}
+
+/*图片放大*/
+#background-img {
+	transition:transform 0.1s;
+}
+#background-img:hover {
+	transform:scale( 1.5 );
+}

@@ -3,11 +3,14 @@
     margin: 0;
 }
 a {
-  text-decoration:none;
-  color: #212121;
+    text-decoration:none;
+    color: #212121;
 } 
 #a-href{
     color: #FF4081;
+}
+#a-more{
+    color: #448AFF;;
 }
 #name{
     font-size: 34px;
@@ -55,29 +58,24 @@ a {
     height: 500px;
     width: 100%;
 }
-#banner-span{
-    position: absolute;
-    margin-top: 70px;
-    margin-left: 17%;
-    font-size: 54px;
-    color: white;    
-}
-#class-div{
+
+#class-span{
     font-size: 36px;
     font-weight: 600;
     margin-top: 20px;
     margin-left: 21%;
 }
-
+/* 更多 */
 #more{
     font-weight: 400;
     font-size: 24px;
-    color:  #448AFF;
     float: left;
     margin-top: 190px;
     margin-left: 20px;
 }
-
+.mdui-container{
+    margin-left: 11%;
+}
 
 #class-card1{
     height: 100px;

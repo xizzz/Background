@@ -39,42 +39,18 @@ a {
     margin: 8px;
     margin-right: 200px;
 }
-#show-div{
-    font-weight: 500;
-    font-size: 36px;
-    margin-top: 20px;
-    margin-left: 21%;
-}
-#banner{
-    height: 220px;
-    width: 900px;
-    margin-top: 20px;
-    margin-left: 20%;
-    background: #3F51B5;
-    box-shadow: 0px 5px 40px rgb(90, 151, 224);
-    border-radius: 20px;
-}
-#banner-img{
-    height: 500px;
-    width: 100%;
-}
 
 #class-span{
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 600;
     margin-top: 20px;
-    margin-left: 21%;
+    margin-left: 0px;
 }
-/* 更多 */
-#more{
-    font-weight: 400;
-    font-size: 24px;
-    float: left;
-    margin-top: 190px;
-    margin-left: 20px;
-}
+
 .mdui-container{
-    margin-left: 11%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #class-card1{
@@ -82,7 +58,7 @@ a {
     width: 200px;
     float: left;
     margin-top: 20px;
-    margin-left: 15%;
+    margin-left: 0px;
     background: #81B900;
     box-shadow: 0px 3px 40px rgb(157, 184, 93);
     animation-duration: 1s;
@@ -125,242 +101,109 @@ a {
     margin-top: 30px;
     margin-left: 65px;
 }
-#fixed-help{
-    position: absolute;
-    margin-top: 550px;
-    margin-left: 82%;
-    height: 400px;
-    width: 150px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 40px #64B5F6;
-    background-color: #448AFF;
-}
-#ad{
-    width: 50px; 
-    word-wrap: break-word; 
-    letter-spacing: 80px; 
-    font-size: 64px;
-    color:white;
-}
-#main{
-    font-size: 36px;
-    font-weight: 600;
-    margin-top: 40px;
-    margin-left: 21%;
-}
-#img{
-    height: 200px;
-    width: 420px;
-    border-radius: 20px;
-}
-#card1{
-    height: 200px;
-    width: 420px;
-    float: left;
-    margin-top: 20px;
-    margin-left: 15%;
-    background: #009688;
-    box-shadow: 0px 5px 15px #9e9e9e;
-    border-radius: 20px;
-}
-#card2{
-    height: 200px;
-    width: 420px;
-    float: left;
-    margin-top: 20px;
-    margin-left: 20px;
-    background: #009688;
-    box-shadow: 0px 5px 15px #9e9e9e;
-    border-radius: 20px;
-}
-#card3{
-    height: 200px;
-    width: 420px;
-    float: left;
-    margin-top: 45px;
-    margin-left: 15%;
-    background: #009688;
-    box-shadow: 0px 5px 15px #9e9e9e;
-    border-radius: 20px;
-}
-#card4{
-    height: 200px;
-    width: 420px;
-    float: left;
-    margin-top: 45px;
-    margin-left: 20px;
-    background: #009688;
-    box-shadow: 0px 5px 15px #9e9e9e;
-    border-radius: 20px;
-}
-#main-card1-span{
-    font-size: 30px;
-    font-weight: 600;
-
-}
-#main-card2-span{
-    font-size: 30px;
-    font-weight: 600;
-
-}
-#main-card3-span{
-    font-size: 30px;
-    font-weight: 600;
-
-}
-#main-card4-span{
-    font-size: 30px;
-    font-weight: 600;
-
-}
 
 #microsoft-span{
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 600;
     position: relative;
-    margin-top: 50px;
-    margin-left: 21%;
-}
-#google-span{
-    font-size: 36px;
-    font-weight: 600;
-    position: relative;
-    margin-top: 20px;
-    margin-left: 21%;
-}
-#apple-span{
-    font-size: 36px;
-    font-weight: 600;
-    position: relative;
-    margin-top: 20px;
-    margin-left: 21%;
-}
-#design-span{
-    font-size: 36px;
-    font-weight: 600;
-    position: relative;
-    margin-top: 20px;
-    margin-left: 21%;
+    margin-top: 180px;
+    margin-left: 0px;
 }
 #fluentdesign-span{
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 600;
     position: relative;
-    margin-top: 20px;
-    margin-left: 21%;
+    margin-top: 200px;
+    margin-left: 0px;
 }
-#pay-span{
-    font-size: 36px;
+#apple-span{
+    font-size: 40px;
     font-weight: 600;
     position: relative;
-    margin-top: 20px;
-    margin-left: 21%;
+    margin-top: 200px;
+    margin-left: 0px;
 }
+#google-span{
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 0px;
+}
+#design-span{
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 0px;
+}
+
+
 #background-img{
-    height: 100px;
-    width: 200px;   
+    height: 120px;
+    width: 240px;   
 }
 #wallpaper-card1{
-    height: 100px;
-    width: 200px;
+    height: 120px;
+    width: 240px;
     float: left;
-    margin-top: 20px;
-    margin-left: 15%;
+    margin-top: 40px;
+    margin-left: 0px;
     background: #9575CD;
     box-shadow: 0px 5px 15px #90CAF9;
     border-radius: 20px;
 }
 #wallpaper-card2{
-    height: 100px;
-    width: 200px;
+    height: 120px;
+    width: 240px;
     float: left;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 20px;
     background: #9575CD;
     box-shadow: 0px 5px 20px  #90CAF9;
     border-radius: 20px;
 }
 #wallpaper-card3{
-    height: 100px;
-    width: 200px;
+    height: 120px;
+    width: 240px;
     float: left;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 20px;
     background: #9575CD;
     box-shadow: 0px 5px 20px #90CAF9;
     border-radius: 20px;
 }
 #wallpaper-card4{
-    height: 100px;
-    width: 200px;
+    height: 120px;
+    width: 240px;
     float: left;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 20px;
     background: #9575CD;
     box-shadow: 0px 5px 40px #90CAF9;
     border-radius: 20px;
 }
 
-#wallpaper-more{
-    font-weight: 400;
-    font-size: 24px;
-    color:  #448AFF;
-    float: left;
-    margin-top: 90px;
-    margin-left: 20px;
-}
+
 #footer-span{
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 600;
-    margin-top: 40px;
-    margin-left: 21%;
+    margin-top: 200px;
+    margin-left: 0px;
     margin-bottom: 20px;
 }
-#footer{
-    height: 180px;
-    width: 100%;
-    position: absolute;
-    background-color: #3F51B5;
+h2{
+    margin-top: 5px;
 }
-
-#product-photo{
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 20%;
-    height: 280px;
-    width: 280px;
-    background-color:#009688;
+h5{
+    margin-top: 5px;
 }
-#details{
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 600px;
-    padding-top: 20px;
-    padding-left: 20px;
-    height: 280px;
-    width: 320px;
-    font-size: 24px;
-}
-#buy-buttom{
-    height: 40px;
-    width: 80px;
+#pay-span{
+    font-size: 40px;
+    font-weight: 600;
     position: relative;
-    margin-top: 100px;
-    margin-right: 0px;
-    border-radius: 20px;
-    background-color: #448AFF;
-}
-#title{
-    font-size: 42px;
-}
-#price{
-    margin-top: 20px;
-}
-#buy{
-    text-align: center;
-    color: cornsilk;
-    padding-top: 8px;
-    font-size: 18px;
+    margin-top: 80px;
+    margin-left: 0px;
 }
 
 /*图片放大*/
@@ -369,4 +212,10 @@ a {
 }
 #background-img:hover {
 	transform:scale( 1.5 );
+}
+
+@media screen and (max-width: 600px) {
+    mdui-container{
+        margin: 0;
+    }
 }

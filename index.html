@@ -22,15 +22,63 @@
       </div>
     </div>
 
+    <body class="mdui-theme-layout-dark mdui-drawer-body-left mdui-appbar-with-toolbar">
+      <!-- 工   具   栏 -->
+      <div class="mdui-hidden-lg-up">
+<div class="mdui-appbar mdui-color-theme mdui-appbar-fixed mdui-shadow-0">
+<div  id="toolbar" class="mdui-toolbar  mdui-color-white mdui-shadow-2">
+<a href="javascript:;" mdui-drawer="{target: '#drawer'}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
+<span class="mdui-typo-title">Home</span>
+<div class="mdui-toolbar-spacer"></div>
+<div id="search" class="mdui-textfield mdui-textfield-expandable mdui-float-right">
+<button class="mdui-textfield-icon mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></button>
+<input class="mdui-textfield-input" type="text" placeholder="Search"/>
+<button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
+</div>
+<a href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="dayModeFunction()" mdui-tooltip="{content: '点击/双击开关'}" ondblclick="darkModeFunction()"><i id="changeColor"  class="mdui-icon material-icons">brightness_4</i></a>
+<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
+</div>
+</div>
+      <!-- 抽  屉  栏  -->
+<div id="drawer" class="mdui-drawer mdui-shadow-8">
+<ul class="mdui-list" mdui-collapse="{accordion: true}">
+
+<li class="mdui-list-item mdui-ripple">
+<div class="mdui-list-item-content">首页</div>
+</li>
+
+<li class="mdui-collapse-item mdui-collapse-item-open">
+<div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+<div class="mdui-list-item-content">壁纸</div>
+<i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+</div>
+<ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
+<a href="mdl.html"> <li class="mdui-list-item mdui-ripple">微软</li></a>
+<li class="mdui-list-item mdui-ripple">苹果 Mac os X</li>
+<li class="mdui-list-item mdui-ripple">谷歌</li>
+<li class="mdui-list-item mdui-ripple">原创</li>
+</ul>
+</li>
+
+<li class="mdui-list-item mdui-ripple">
+<div class="mdui-list-item-content">关于我们</div>
+</li>
+
+<li class="mdui-list-item mdui-ripple">
+  <div class="mdui-list-item-content">赞赏</div>
+  </li>
+</div>
+</div>
     <!-- -->
-        <div class="mdui-container mdui-center">
-          <div class="mdui-hidden-sm-down">
+        <div id="container" class="mdui-container mdui-center">
+
+    <div class="mdui-hidden-sm-down">
       <div id="class-span">分类</div>
           <div id="class-card1"><a href="#microsoft-span"><span id="class-name" class="mdui-valign">微软</span></a></div>
           <div id="class-card2"><a href="#google-span"><span id="class-name" class="mdui-valign">谷歌</span></a></div>
           <div id="class-card3"><a href="#apple-span"><span id="class-name" class="mdui-valign">苹果</span></a></div>
           <div id="class-card4"><a href="#design-span"><span id="class-name" class="mdui-valign">风景</span></a></div>
-          </div>
+      </div>
 
       <div id="microsoft-span">微软</div>
           <div id="wallpaper-card1"><a href="https://i.loli.net/2020/01/08/GaAxeb4ivEQXkNg.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/ps7Ee8huYOgBNov.jpg"/></a></div>
@@ -81,4 +129,12 @@
       </div>
 
   </body>
+  <script>
+    function dayModeFunction(){
+      $('body').removeClass('mdui-theme-layout-dark');
+}
+    function darkModeFunction(){
+      $('body').addClass('mdui-theme-layout-dark');
+}
+</script>
 </html>

@@ -214,8 +214,10 @@ h5{
 	transform:scale( 1.5 );
 }
 
-@media screen and (max-width: 600px) {
-    mdui-container{
+@media screen and (max-width: 500px) {
+    .mdui-container{
         margin: 0;
+        margin-right: 0%;
+        margin-left:0%;
     }
 }

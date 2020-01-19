@@ -11,7 +11,7 @@
                     <!-- 工   具   栏 -->
     <div id="appbar" class="mdui-appbar mdui-color-white mdui-appbar-fixed  mdui-shadow-1">
       <div  id="toolbar" class="mdui-toolbar">
-        <span id="name" class="mdui-typo-title">Democratic Design</span>
+        <span id="name" class="mdui-typo-title">Microsoft 微软</span>
           <div class="mdui-toolbar-spacer"></div>
             <div id="topnamediv">
               <span id="topname1"><a href="index.html">首页</a><span>
@@ -24,51 +24,51 @@
 
     <body class="mdui-theme-layout-dark mdui-drawer-body-left mdui-appbar-with-toolbar">
       <!-- 工   具   栏 -->
-      <div class="mdui-hidden-lg-up">
-<div class="mdui-appbar mdui-color-theme mdui-appbar-fixed mdui-shadow-0">
-<div  id="toolbar" class="mdui-toolbar  mdui-color-white mdui-shadow-2">
-<a href="javascript:;" mdui-drawer="{target: '#drawer'}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
-<span class="mdui-typo-title">Home</span>
-<div class="mdui-toolbar-spacer"></div>
-<div id="search" class="mdui-textfield mdui-textfield-expandable mdui-float-right">
-<button class="mdui-textfield-icon mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></button>
-<input class="mdui-textfield-input" type="text" placeholder="Search"/>
-<button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
-</div>
-<a href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="dayModeFunction()" mdui-tooltip="{content: '点击/双击开关'}" ondblclick="darkModeFunction()"><i id="changeColor"  class="mdui-icon material-icons">brightness_4</i></a>
-<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
-</div>
-</div>
+    <div class="mdui-hidden-lg-up">
+      <div class="mdui-appbar mdui-color-theme mdui-appbar-fixed mdui-shadow-0">
+        <div  id="toolbar" class="mdui-toolbar  mdui-color-white mdui-shadow-2">
+          <a href="javascript:;" mdui-drawer="{target: '#drawer'}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
+          <span class="mdui-typo-title">Home</span>
+              <div class="mdui-toolbar-spacer"></div>
+          <div id="search" class="mdui-textfield mdui-textfield-expandable mdui-float-right">
+            <button class="mdui-textfield-icon mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></button>
+            <input class="mdui-textfield-input" type="text" placeholder="Search"/>
+            <button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
+          </div>
+        <a href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="dayModeFunction()" mdui-tooltip="{content: '点击/双击开关'}" ondblclick="darkModeFunction()"><i id="changeColor"  class="mdui-icon material-icons">brightness_4</i></a>
+        <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
+      </div>
+    </div>
+
       <!-- 抽  屉  栏  -->
-<div id="drawer" class="mdui-drawer mdui-shadow-8">
-<ul class="mdui-list" mdui-collapse="{accordion: true}">
+      <div id="drawer" class="mdui-drawer mdui-shadow-8">
+        <ul class="mdui-list" mdui-collapse="{accordion: true}">
+      <li class="mdui-list-item mdui-ripple">
+      </li> 
 
-<li class="mdui-list-item mdui-ripple">
-<div class="mdui-list-item-content">首页</div>
-</li>
+      <li class="mdui-collapse-item mdui-collapse-item-open">
+        <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+          <div class="mdui-list-item-content">壁纸</div>
+          <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+      </div>
+      <ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
+        <a href="mdl.html"> <li class="mdui-list-item mdui-ripple">微软</li></a>
+        <li class="mdui-list-item mdui-ripple">苹果 Mac os X</li>
+        <li class="mdui-list-item mdui-ripple">谷歌</li>
+        <li class="mdui-list-item mdui-ripple">原创</li>
+      </ul>
+    </li>
 
-<li class="mdui-collapse-item mdui-collapse-item-open">
-<div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-<div class="mdui-list-item-content">壁纸</div>
-<i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
-</div>
-<ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
-<a href="mdl.html"> <li class="mdui-list-item mdui-ripple">微软</li></a>
-<li class="mdui-list-item mdui-ripple">苹果 Mac os X</li>
-<li class="mdui-list-item mdui-ripple">谷歌</li>
-<li class="mdui-list-item mdui-ripple">原创</li>
-</ul>
-</li>
+    <li class="mdui-list-item mdui-ripple">
+        <div class="mdui-list-item-content">关于我们</div>
+    </li>
 
-<li class="mdui-list-item mdui-ripple">
-<div class="mdui-list-item-content">关于我们</div>
-</li>
+    <li class="mdui-list-item mdui-ripple">
+      <div class="mdui-list-item-content">赞赏</div>
+    </li>
 
-<li class="mdui-list-item mdui-ripple">
-  <div class="mdui-list-item-content">赞赏</div>
-  </li>
-</div>
-</div>
+      </div>
+    </div>
     <!-- -->
         <div id="container" class="mdui-container mdui-center">
 
@@ -95,8 +95,6 @@
       <div id="wallpaper-card2"><a href="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/109798/5/4685/1149616/5e233e8dEa56294a5/fd5f573cd28fc005.jpg"> <img id="background-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/109798/5/4685/1149616/5e233e8dEa56294a5/fd5f573cd28fc005.jpg"/></a></div>
       <div id="wallpaper-card3"><a href="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/98994/22/10866/857240/5e233e8bEd301a36c/7d981a7428ac923a.jpg"> <img id="background-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/98994/22/10866/857240/5e233e8bEd301a36c/7d981a7428ac923a.jpg"/></a></div>
       <div id="wallpaper-card4"><a href="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/105804/20/10984/545011/5e233e89E43a65c8d/bc4330eea1c09d88.jpg"> <img id="background-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/105804/20/10984/545011/5e233e89E43a65c8d/bc4330eea1c09d88.jpg"/></a></div>
-
-
 
       <div id="footer-span">关于我们</div>
         <h2>这是由微软、谷歌和苹果爱好者创建的周边壁纸网站，是采用<a id="a-href" href="https://www.mdui.org/">MDUI</a>和<a id="a-href" href="https://sm.ms/">SM.MS</a>创建的。</h2>

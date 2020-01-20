@@ -217,6 +217,18 @@ h5{
     margin-left: 0px;
 }
 
+#wx-pay{
+    height: 220px;
+    width: 220px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+#ali-pay{
+    height: 220px;
+    width: 220px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
 /*按钮*/
 #a-download{
     color: #FF4081;

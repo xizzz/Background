@@ -184,6 +184,17 @@ a {
     border-radius: 20px;
 }
 
+#wallpaper-card5{
+    height: 113px;
+    width: 200px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 120px;
+    background: #9575CD;
+    box-shadow: 0px 5px 40px #90CAF9;
+    border-radius: 20px;
+}
+
 
 #footer-span{
     font-size: 40px;
@@ -206,6 +217,12 @@ h5{
     margin-left: 0px;
 }
 
+/*按钮*/
+.mdui-btn{
+    border-radius: 18px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
 /*图片放大*/
 #background-img {
 	transition:transform 0.1s;

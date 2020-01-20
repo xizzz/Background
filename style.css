@@ -218,10 +218,10 @@ h5{
 }
 
 /*按钮*/
-.mdui-btn{
-    border-radius: 18px;
-    margin-top: 40px;
+#a-download{
+    color: #FF4081;
     margin-left: 40px;
+    font-size: 18px;
 }
 /*图片放大*/
 #background-img {

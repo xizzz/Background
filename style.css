@@ -101,12 +101,30 @@ a {
     margin-top: 30px;
     margin-left: 65px;
 }
-
+#banner-span{
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+#banner{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+#banner-img{
+    position: relative;
+    height: 250px;
+    width:100%;
+    margin-top: 30px;
+    margin-left: 0px;
+}
 #microsoft-span{
     font-size: 40px;
     font-weight: 600;
     position: relative;
-    margin-top: 180px;
+    margin-top: 200px;
     margin-left: 0px;
 }
 #fluentdesign-span{
@@ -121,6 +139,13 @@ a {
     font-weight: 600;
     position: relative;
     margin-top: 200px;
+    margin-left: 0px;
+}
+#apple-div1{
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 30px;
     margin-left: 0px;
 }
 #google-span{

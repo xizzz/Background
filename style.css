@@ -43,7 +43,7 @@ a {
 #class-span{
     font-size: 40px;
     font-weight: 600;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 0px;
 }
 
@@ -57,7 +57,7 @@ a {
     height: 100px;
     width: 200px;
     float: left;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 0px;
     background: #81B900;
     box-shadow: 0px 3px 40px rgb(157, 184, 93);
@@ -68,7 +68,7 @@ a {
     height: 100px;
     width: 200px;
     float: left;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 20px;
     background: #EEB211;
     box-shadow: 0px 3px 40px #FFF59D;
@@ -78,7 +78,7 @@ a {
     height: 100px;
     width: 200px;
     float: left;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 20px;
     background: #424242;
     box-shadow: 0px 3px 40px #424242;
@@ -88,7 +88,7 @@ a {
     height: 100px;
     width: 200px;
     float: left;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 20px;
     background: #2196F3;
     box-shadow: 0px 3px 40px #64B5F6;
@@ -98,7 +98,7 @@ a {
     color: white; 
     font-size: 36px;
     position: absolute;
-    margin-top: 30px;
+    margin-top:30px;
     margin-left: 65px;
 }
 #banner-span{
@@ -125,7 +125,7 @@ a {
     font-size: 42px;
     font-weight: 600;
     position: relative;
-    margin-top: 200px;
+    margin-top: 180px;
     margin-left: 0px;
 }
 #google-span{

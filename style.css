@@ -127,6 +127,13 @@ a {
     margin-top: 200px;
     margin-left: 0px;
 }
+#google-span{
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 0px;
+}
 #fluentdesign-span{
     font-size: 40px;
     font-weight: 600;
@@ -154,14 +161,8 @@ a {
     position: relative;
     margin-top: 200px;
     margin-left: 0px;
-}s
-#google-span{
-    font-size: 40px;
-    font-weight: 600;
-    position: relative;
-    margin-top: 200px;
-    margin-left: 0px;
 }
+
 #design-span{
     font-size: 40px;
     font-weight: 600;

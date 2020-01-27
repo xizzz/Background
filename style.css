@@ -275,10 +275,25 @@ h5{
 	transform:scale( 1.5 );
 }
 
-@media screen and (max-width: 500px) {
-    .mdui-container{
-        margin: 0;
-        margin-right: 0%;
-        margin-left:0%;
-    }
-}
+
+@media screen and (max-width: 500px) { 
+    #banner-img {width: 100%}  
+    } 
+@media screen and (max-width: 500px) { 
+    #wallpaper-card3 {margin-left: 0px;}  
+    } 
+@media screen and (max-width: 500px) { 
+    #microsoft-span{margin-top: 10px;}  
+    } 
+@media screen and (max-width: 500px) { 
+    #fluentdesign-span{margin-top: 510px;}  
+    } 
+@media screen and (max-width:500px) { 
+    .mdui-container {width: 90%}  
+    } 
+@media screen and (max-width:500px) { 
+    #dockButton {width: 30%}  
+    } 
+@media screen and (max-width:300px) { 
+    #dockButton {width: 30%}  
+} 

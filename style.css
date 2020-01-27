@@ -291,9 +291,3 @@ h5{
 @media screen and (max-width:500px) { 
     .mdui-container {width: 90%}  
     } 
-@media screen and (max-width:500px) { 
-    #dockButton {width: 30%}  
-    } 
-@media screen and (max-width:300px) { 
-    #dockButton {width: 30%}  
-} 

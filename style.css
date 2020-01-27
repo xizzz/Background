@@ -283,11 +283,51 @@ h5{
     #wallpaper-card3 {margin-left: 0px;}  
     } 
 @media screen and (max-width: 500px) { 
-    #microsoft-span{margin-top: 10px;}  
+    #microsoft-span{margin-top: 20px;}  
     } 
 @media screen and (max-width: 500px) { 
-    #fluentdesign-span{margin-top: 510px;}  
+    #fluentdesign-span{margin-top: 360px;}  
     } 
+@media screen and (max-width: 500px) { 
+    #apple-span{margin-top: 360px;}  
+    } 
+@media screen and (max-width: 500px) { 
+    #google-span{margin-top: 360px;}  
+    } 
+@media screen and (max-width: 500px) { 
+    #design-span{margin-top: 360px;}  
+    }    
+@media screen and (max-width: 500px) { 
+    #about-span{margin-top: 360px;}  
+    }    
 @media screen and (max-width:500px) { 
-    .mdui-container {width: 90%}  
+    .mdui-container {width: 90%;margin: 0px;}  
     } 
+
+    @media screen and (max-width: 500px) { 
+        #banner-img {width: 100%}  
+        } 
+    @media screen and (max-width: 500px) { 
+        #wallpaper-card3 {margin-left: 0px;}  
+        } 
+    @media screen and (max-width: 500px) { 
+        #microsoft-span{margin-top: 20px;}  
+        } 
+    @media screen and (max-width: 500px) { 
+        #fluentdesign-span{margin-top: 360px;}  
+        } 
+    @media screen and (max-width: 500px) { 
+        #apple-span{margin-top: 360px;}  
+        } 
+    @media screen and (max-width: 500px) { 
+        #google-span{margin-top: 360px;}  
+        } 
+    @media screen and (max-width: 500px) { 
+        #design-span{margin-top: 360px;}  
+        }    
+    @media screen and (max-width: 500px) { 
+        #about-span{margin-top: 360px;}  
+        }    
+    @media screen and (max-width:500px) { 
+        .mdui-container {width: 90%;margin: 0px;}  
+        } 

@@ -289,7 +289,8 @@ h5{
     }
 @media screen and (max-width: 414px) { 
     #banner-img {
-        width: 380px
+        height: 240px;
+        width: 380px;
         }  
     } 
 @media screen and (max-width:414px) { 
@@ -313,7 +314,8 @@ h5{
 
 @media screen and (max-width:375px) { 
 .mdui-container {
-    width: 375px;margin: 0px;
+    width: 375px;
+    margin: 0px;
     }  
 } 
 @media screen and (max-width:375px) { 
@@ -325,8 +327,11 @@ h5{
     }
 }
 
-@media screen and (min-width: 375px) { 
-    #banner-img {width: 375px}  
+@media screen and (max-width: 375px) { 
+    #banner-img {
+        width: 360px;
+        height: 200px;
+        }  
     }
 @media screen and (max-width: 375px) { 
     #microsoft-span{margin-top: 20px;}  

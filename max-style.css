@@ -1,0 +1,11 @@
+/*图片放大*/
+#background-img {
+	transition:transform 0.1s;
+}
+#background-img:hover {
+	transform:scale( 1.5 );
+}
+#wallpaper-card1,#wallpaper-card2,#wallpaper-card3,#wallpaper-card4,#wallpaper-card5{
+    background: #9575CD;
+    box-shadow: 0px 5px 40px #90CAF9;
+}

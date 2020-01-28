@@ -275,22 +275,22 @@ h5{
 	transform:scale( 1.5 );
 }
 
-@media screen and (min-width:414px) { 
+@media screen and (max-width:414px) { 
     .mdui-container {
         width: 414px;
         margin: 0px;
         }  
     }
-@media screen and (min-width:414px) { 
+@media screen and (max-width:414px) { 
     #background-img {
         height: 240px;
         width: 380px;
         }  
     }
-@media screen and (min-width: 414px) { 
+@media screen and (max-width: 414px) { 
     #banner-img {width: 414px}  
     } 
-@media screen and (min-width:414px) { 
+@media screen and (max-width:414px) { 
 #wallpaper-card1,#wallpaper-card2,#wallpaper-card3,#wallpaper-card4 {
         height: 240px;
         width: 380px;
@@ -299,10 +299,10 @@ h5{
         }
     }
 
-@media screen and (min-width: 414px) { 
+@media screen and (max-width: 414px) { 
     #microsoft-span{margin-top: 20px;}  
     } 
-@media screen and (min-width: 414px) { 
+@media screen and (max-width: 414px) { 
     #fluentdesign-span,#apple-span,#google-span,#design-span, #about-span{
         margin-top: 1000px;
     }  

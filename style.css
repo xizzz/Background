@@ -288,7 +288,9 @@ h5{
         }  
     }
 @media screen and (max-width: 414px) { 
-    #banner-img {width: 414px}  
+    #banner-img {
+        width: 380px
+        }  
     } 
 @media screen and (max-width:414px) { 
 #wallpaper-card1,#wallpaper-card2,#wallpaper-card3,#wallpaper-card4 {

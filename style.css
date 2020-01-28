@@ -284,20 +284,21 @@ h5{
 @media screen and (max-width:414px) { 
     #background-img {
         height: 240px;
-        width: 380px;
+        width: 394px;
         }  
     }
 @media screen and (max-width: 414px) { 
     #banner-img {
         height: 240px;
-        width: 380px;
+        width: 394px;
+        margin-top: 0px;
         }  
     } 
 @media screen and (max-width:414px) { 
 #wallpaper-card1,#wallpaper-card2,#wallpaper-card3,#wallpaper-card4 {
         height: 240px;
         width: 380px;
-        margin-top: 40px;
+        margin-top: 20px;
         margin-left: 0px;
         }
     }
@@ -307,7 +308,7 @@ h5{
     } 
 @media screen and (max-width: 414px) { 
     #fluentdesign-span,#apple-span,#google-span,#design-span, #about-span{
-        margin-top: 1000px;
+        margin-top: 1060px;
     }  
 } 
 

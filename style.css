@@ -261,8 +261,7 @@ h5{
 
 @media screen and (max-width:1840px) { 
     .mdui-container {
-        width: 1024px;
-        margin: 0px;
+        width: 900px;
         }  
     }
 @media screen and (max-width:1024px) { 
@@ -329,7 +328,7 @@ h5{
 #wallpaper-card1,#wallpaper-card2,#wallpaper-card3,#wallpaper-card4{
         height: 200px;
         width: 350px;
-        margin-top: 40px;
+        margin-top: 20px;
         margin-left: 0px;
     }
 }
@@ -345,7 +344,7 @@ h5{
     }
 @media screen and (max-width: 375px) { 
     #fluentdesign-span,#apple-span,#google-span,#design-span,#about-span{
-        margin-top: 1000px;
+        margin-top: 900px;
     }  
 }   
 

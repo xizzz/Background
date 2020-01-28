@@ -275,6 +275,44 @@ h5{
 	transform:scale( 1.5 );
 }
 
+
+@media screen and (max-width:1840px) { 
+    .mdui-container {
+        width: 1840px;
+        margin: 0px;
+        }  
+    }
+@media screen and (max-width:414px) { 
+    #background-img {
+        height: 240px;
+        width: 394px;
+        }  
+    }
+@media screen and (max-width: 414px) { 
+    #banner-img {
+        height: 240px;
+        width: 394px;
+        margin-top: 0px;
+        }  
+    } 
+@media screen and (max-width:414px) { 
+#wallpaper-card1,#wallpaper-card2,#wallpaper-card3,#wallpaper-card4 {
+        height: 240px;
+        width: 380px;
+        margin-top: 20px;
+        margin-left: 0px;
+        }
+    }
+
+@media screen and (max-width: 414px) { 
+    #microsoft-span{margin-top: 20px;}  
+    } 
+@media screen and (max-width: 414px) { 
+    #fluentdesign-span,#apple-span,#google-span,#design-span, #about-span{
+        margin-top: 1060px;
+    }  
+} 
+
 @media screen and (max-width:414px) { 
     .mdui-container {
         width: 414px;
@@ -335,23 +373,8 @@ h5{
         }  
     }
 @media screen and (max-width: 375px) { 
-    #microsoft-span{margin-top: 20px;}  
-    } 
-@media screen and (max-width: 375px) { 
-    #fluentdesign-span{margin-top:1000px;
-    }
-@media screen and (max-width: 375px) { 
-    #apple-span{margin-top: 1000px;}  
-    } 
-@media screen and (max-width: 375px) { 
-    #google-span{margin-top: 1000px;}  
-    } 
-@media screen and (max-width: 375px) { 
-    #design-span{margin-top: 1000px;}  
-    }    
-@media screen and (max-width: 375px) { 
-    #about-span{margin-top: 1000px;}  
-    }    
+    #microsoft-span,#fluentdesign-span,#apple-span,#google-span,#design-span,#about-span{margin-top: 20px;}  
+    }   
 
 @media screen and (max-width: 375px) { 
     #background-img{

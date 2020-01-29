@@ -7,23 +7,24 @@
         <link href="../style.css" rel="stylesheet">
         <link href="../max-style.css" rel="stylesheet" media="screen and (min-width:1700px)">
         <script src="https://cdn.bootcss.com/mdui/0.4.3/js/mdui.min.js"></script>
+        <script src="../js.js"></script>
     </head>
     <body id="body" class="mdui-appbar-with-toolbar  mdui-bottom-nav-fixed">
                     <!-- 工   具   栏 -->
-    <div id="appbar" class="mdui-appbar mdui-color-white mdui-appbar-fixed  mdui-shadow-1">
-      <div  id="toolbar" class="mdui-toolbar">
-        <span id="name" class="mdui-typo-title">Democratic Design</span>
+    <div id="appbar" class="mdui-appbar  mdui-appbar-fixed  mdui-shadow-1">
+      <div  id="toolbar" class="mdui-toolbar mdui-color-theme">
+        <span id="name" class="mdui-typo-title span">Democratic Design</span>
           <div class="mdui-toolbar-spacer"></div>
             <div id="topnamediv">
-              <span id="topname1"><a href="index.html">首页</a><span>
-              <span id="topname2"><a href="javascript:;">作品集</a></span>
-              <span id="topname3"><a href="javascript:;" mdui-dialog="{target: '#example-1'}">帮助</a></span>
-              <span id="topname4"><a href="#about-span">关于</a></span>
+              <span id="topname1"><a href="index.html"  class="span">首页</a><span>
+              <span id="topname2"><a href="javascript:;"  class="span">作品集</a></span>
+              <span id="topname3"><a href="javascript:;" mdui-dialog="{target: '#example-1'}"  class="span">帮助</a></span>
+              <span id="topname4"><a href="#about-span"  class="span">关于</a></span>
           </div>
       </div>
     </div>
 
-    <body class="mdui-theme-layout-dark mdui-drawer-body-left mdui-appbar-with-toolbar">
+    <body class="mdui-drawer-body-left mdui-appbar-with-toolbar">
       <!-- 工   具   栏 -->
       <div class="mdui-hidden-lg-up">
 <div class="mdui-appbar mdui-color-theme mdui-appbar-fixed mdui-shadow-0">
@@ -34,12 +35,12 @@
 <div id="search" class="mdui-textfield mdui-textfield-expandable mdui-float-right">
 <button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
 </div>
-<a href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="dayModeFunction()" mdui-tooltip="{content: '点击/双击开关'}" ondblclick="darkModeFunction()"><i id="changeColor"  class="mdui-icon material-icons">brightness_4</i></a>
-<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
+<a href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="changemode()"><i id="changeColor"  class="mdui-icon material-icons">brightness_4</i></a>
+<a href="javascript:;"  mdui-dialog="{target: '#example-1'}" href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
 </div>
 </div>
       <!-- 抽  屉  栏  -->
-<div id="drawer" class="mdui-drawer mdui-shadow-8">
+<div id="drawer" class="mdui-drawer mdui-drawer-close mdui-shadow-8">
 <ul class="mdui-list" mdui-collapse="{accordion: true}">
 
 <li class="mdui-list-item mdui-ripple">
@@ -72,11 +73,11 @@
 
 
   <div class="mdui-dialog" id="example-1">
-    <div class="mdui-dialog-title">单选题</div>
-    <div class="mdui-dialog-content">以下选项谁是憨批？</div>
+    <div class="mdui-dialog-title">设置</div>
+    <div class="mdui-dialog-content"><a href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="changemode()" mdui-tooltip="{content: '点击切换'}"><i id="theme-btn"  class="mdui-icon material-icons">brightness_4</i></a></div>
+    
     <div class="mdui-dialog-actions">
-      <button class="mdui-btn mdui-ripple" mdui-dialog-close>辣条</button>
-      <button class="mdui-btn mdui-ripple" mdui-dialog-confirm>三分</button>
+      <button class="mdui-btn mdui-ripple" mdui-dialog-close>好</button>
     </div>
   </div>
     <!-- 容器 -->
@@ -94,7 +95,7 @@
           <div id="class-card4"><a href="#design-span"><span id="class-name" class="mdui-valign">创作</span></a></div>
       </div>
 
-      <div id="microsoft-span"><a href="microsoft.html">微软</a></div>
+      <div id="microsoft-span"><a href="microsoft.html" class="span">微软</a></div>
           <div id="wallpaper-card1"><a href="https://i.loli.net/2020/01/08/ps7Ee8huYOgBNov.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/ps7Ee8huYOgBNov.jpg"/></a></div>
           <div id="wallpaper-card2"><a href="https://i.loli.net/2020/01/08/VmAZQMlPzUqDjcC.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/VmAZQMlPzUqDjcC.jpg"/></a></div>
           <div id="wallpaper-card3"><a href="https://i.loli.net/2020/01/08/l5MvJzQmbACaBKs.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/l5MvJzQmbACaBKs.jpg"/></a></div>
@@ -102,27 +103,27 @@
 
 
       
-    <div id="fluentdesign-span"><a href="fluentdesign.html">Fluent Design X Office</a></div>
+    <div id="fluentdesign-span"><a href="fluentdesign.html" class="span">Fluent Design X Office</a></div>
         <div id="wallpaper-card1"><a href="https://i.loli.net/2020/01/08/cq3XN9YSphk5Jyv.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/cq3XN9YSphk5Jyv.jpg"/></a></div>
         <div id="wallpaper-card2"><a href="https://i.loli.net/2020/01/08/bv7IQjz8gDHLh5T.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/bv7IQjz8gDHLh5T.jpg"/></a></div>
         <div id="wallpaper-card3"><a href="https://i.loli.net/2020/01/08/UYrnLDNEFhvMd6X.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/UYrnLDNEFhvMd6X.jpg"/></a></div>
         <div id="wallpaper-card4"><a href="https://i.loli.net/2020/01/08/pf7qnzV1BN9ytHb.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/pf7qnzV1BN9ytHb.jpg"/></a></div>
 
 
-    <div id="apple-span"><a href="apple.html">苹果</a></div>
+    <div id="apple-span"><a href="apple.html" class="span">苹果</a></div>
         <div id="wallpaper-card1"><a href="https://cdn.onemorething.nl/uploads//2016/08/wallpaper-1-sierra.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/10/9DsEirzClwQoZxm.jpg"/></a></div>
         <div id="wallpaper-card2"><a href="https://i.loli.net/2020/01/10/dirhqHXykvTQs9E.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/10/mrvcOET7qNJYSZW.jpg"/></a></div>
         <div id="wallpaper-card3"><a href="https://i.loli.net/2020/01/10/L1RF5boCOzDc48U.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/10/31euv2lpo8jMkOP.jpg"/></a></div>
         <div id="wallpaper-card4"><a href="https://i.loli.net/2020/01/10/JaKCt2ewPn5rzTs.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/10/XTWDgPOlr7aSCuL.jpg"/></a></div>
 
-    <div id="google-span"><a href="google.html">谷歌</a></div>
+    <div id="google-span"><a href="google.html" class="span">谷歌</a></div>
         <div id="wallpaper-card1"><a href="https://i.loli.net/2020/01/08/GaAxeb4ivEQXkNg.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/ps7Ee8huYOgBNov.jpg"/></a></div>
         <div id="wallpaper-card2"><a href="https://i.loli.net/2020/01/08/VmAZQMlPzUqDjcC.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/VmAZQMlPzUqDjcC.jpg"/></a></div>
         <div id="wallpaper-card3"><a href="https://i.loli.net/2020/01/08/l5MvJzQmbACaBKs.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/l5MvJzQmbACaBKs.jpg"/></a></div>
         <div id="wallpaper-card4"><a href="https://i.loli.net/2020/01/08/dngHxDzI9783akT.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/dngHxDzI9783akT.jpg"/></a></div>
 
 
-    <div id="design-span"><a href="DIY.html">创作</a></div>
+    <div id="design-span"><a href="DIY.html" class="span">创作</a></div>
         <div id="wallpaper-card1"><a href="https://i.loli.net/2020/01/08/cq3XN9YSphk5Jyv.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/cq3XN9YSphk5Jyv.jpg"/></a></div>
         <div id="wallpaper-card2"><a href="https://i.loli.net/2020/01/08/bv7IQjz8gDHLh5T.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/bv7IQjz8gDHLh5T.jpg"/></a></div>
         <div id="wallpaper-card3"><a href="https://i.loli.net/2020/01/08/UYrnLDNEFhvMd6X.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/UYrnLDNEFhvMd6X.jpg"/></a></div>

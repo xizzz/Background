@@ -266,19 +266,14 @@ h5{
     }
 @media screen and (max-width:1024px) { 
     .mdui-container {
-        width: 1024px;
+        width: 880px;
         margin: 0px;
         }
     #microsoft-span{
         margin-top: 40px;
         }  
     }
-    @media screen and (max-width:810px) { 
-        .mdui-container {
-            width: 1000px;
-            margin: 0px;
-        }  
-    }
+
 
 @media screen and (max-width:414px) { 
     .mdui-container {

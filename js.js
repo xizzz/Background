@@ -27,7 +27,7 @@ function dark(){
 function getexpiretime(){
     var e=new Date(systime.getFullYear(),
     systime.getMonth(),systime.getDate(),6);
-    systime.getHours()<=6?Cookies.set("expire",e.getTime(),{expires:7}):Cookies.set("expire",e.getTime()+864e5,{expires:7})}
+    systime.getHours()<=6?Cookies.set("expire",e.getTime(),{expires:7}):Cookies.set("expire",e.getTime()+864e5,{expires:7})};
 function changemode(){
     "dark"!=Cookies.get("theme")?dark():day(),
     new Date,getexpiretime(),Cookies.set("manual","1",{expires:7})}

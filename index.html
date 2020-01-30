@@ -9,68 +9,66 @@
         <script src="https://cdn.bootcss.com/mdui/0.4.3/js/mdui.min.js"></script>
         <script src="../js.js"></script>
     </head>
-    <body id="body" class="mdui-appbar-with-toolbar  mdui-bottom-nav-fixed">
+    <body id="body" class="mdui-appbar-with-toolbar  mdui-appbar-with-toolbar mdui-bottom-nav-fixed">
                     <!-- 工   具   栏 -->
     <div id="appbar" class="mdui-appbar  mdui-appbar-fixed  mdui-shadow-1">
-      <div  id="toolbar" class="mdui-toolbar mdui-color-theme">
+      <div  id="toolbar" class="mdui-toolbar mdui-color-white">
         <span id="name" class="mdui-typo-title span">Democratic Design</span>
         <div class="mdui-toolbar-spacer"></div>
         <div id="topnamediv">
-          <span id="topname1"><a href="index.html"  class="span">首页</a><span>
-          <span id="topname2"><a href="javascript:;"  class="span">作品集</a></span>
-          <span id="topname3"><a href="javascript:;" mdui-dialog="{target: '#example-1'}"  class="span">帮助</a></span>
-          <span id="topname4"><a href="#about-span"  class="span">关于</a></span>
+          <span id="topname1"><a href="index.html" class="span">首页</a><span>
+          <span id="topname2"><a href="javascript:;" class="span">作品集</a></span>
+          <span id="topname3"><a href="javascript:;" mdui-dialog="{target: '#example-1'}" class="span">帮助</a></span>
+          <span id="topname4"><a href="#about-span" class="span">关于</a></span>
         </div>
       </div>
     </div>
 
-    <body class="mdui-drawer-body-left mdui-appbar-with-toolbar">
       <!-- 工   具   栏 -->
   <div class="mdui-hidden-lg-up">
-    <div class="mdui-appbar mdui-color-theme mdui-appbar-fixed mdui-shadow-0">
-    <div  id="toolbar" class="mdui-toolbar  mdui-color-white mdui-shadow-2">
-    <a href="javascript:;" mdui-drawer="{target: '#drawer'}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
-    <span class="mdui-typo-title"></span>
-    <div class="mdui-toolbar-spacer"></div>
-    <div id="search" class="mdui-textfield mdui-textfield-expandable mdui-float-right">
-    <button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
-    </div>
-    <a href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="changemode()"><i id="changeColor"  class="mdui-icon material-icons">brightness_4</i></a>
-    <a href="javascript:;"  mdui-dialog="{target: '#example-1'}" href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
-    </div>
-  </div>
+    <body class="mdui-drawer-body-left mdui-appbar-with-toolbar">
+      <div class="mdui-appbar mdui-color-theme mdui-appbar-fixed mdui-shadow-0">
+        <div  id="toolbar" class="mdui-toolbar  mdui-color-white mdui-shadow-2">
+          <a href="javascript:;" mdui-drawer="{target: '#drawer'}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
+          <span class="mdui-typo-title"></span>
+          <div class="mdui-toolbar-spacer"></div>
+          <div id="search" class="mdui-textfield mdui-textfield-expandable mdui-float-right">
+            <button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
+          </div>
+          <a href="javascript:;"  mdui-dialog="{target: '#example-1'}" href="javascript:;" class="mdui-btn mdui-btn-icon">
+            <i class="mdui-icon material-icons">more_vert</i>
+          </a>
+        </div>
+      </div>
       <!-- 抽  屉  栏  -->
-<div id="drawer" class="mdui-drawer mdui-drawer-close mdui-shadow-8">
-  <ul class="mdui-list" mdui-collapse="{accordion: true}">
-  <li class="mdui-list-item mdui-ripple">
-    <div class="mdui-list-item-content">首页</div></li>
-  <li class="mdui-collapse-item mdui-collapse-item-open">
-    <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-    <div class="mdui-list-item-content">壁纸</div><i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+  <div id="drawer" class="mdui-drawer mdui-drawer-close mdui-shadow-8">
+    <ul class="mdui-list" mdui-collapse="{accordion: true}">
+      <li class="mdui-list-item mdui-ripple">
+        <div class="mdui-list-item-content">首页</div>
+      </li>
+      <li class="mdui-collapse-item mdui-collapse-item-open">
+        <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+          <div class="mdui-list-item-content">壁纸</div><i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+        </div>
+        <ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
+          <a href="mdl.html"> <li class="mdui-list-item mdui-ripple">微软</li></a>
+          <li class="mdui-list-item mdui-ripple">苹果</li>
+          <li class="mdui-list-item mdui-ripple">谷歌</li>
+          <li class="mdui-list-item mdui-ripple">创作</li>
+        </ul>
+      </li>
+      <li class="mdui-list-item mdui-ripple">
+        <div class="mdui-list-item-content">关于我们</div>
+      </li>
+      <li class="mdui-list-item mdui-ripple">
+        <div class="mdui-list-item-content">赞赏</div>
+      </li>
+    </div>
   </div>
-  <ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
-    <a href="mdl.html"> <li class="mdui-list-item mdui-ripple">微软</li></a>
-    <li class="mdui-list-item mdui-ripple">苹果</li>
-    <li class="mdui-list-item mdui-ripple">谷歌</li>
-    <li class="mdui-list-item mdui-ripple">创作</li>
-  </ul>
-  </li>
-<li class="mdui-list-item mdui-ripple">
-<div class="mdui-list-item-content">关于我们</div>
-</li>
-
-<li class="mdui-list-item mdui-ripple">
-  <div class="mdui-list-item-content">赞赏</div>
-  </li>
-</div>
-</div>
-
-
 
   <div class="mdui-dialog" id="example-1">
     <div class="mdui-dialog-title">设置</div>
     <div class="mdui-dialog-content"><a href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="changemode()" mdui-tooltip="{content: '点击切换'}"><i id="theme-btn"  class="mdui-icon material-icons">brightness_4</i></a></div>
-    
     <div class="mdui-dialog-actions">
       <button class="mdui-btn mdui-ripple" mdui-dialog-close>好</button>
     </div>
@@ -84,10 +82,10 @@
       </div>
       <div class="mdui-hidden-sm-down">
       <div id="class-span">分类</div>
-          <div id="class-card1"><a href="#microsoft-span"><span id="class-name" class="mdui-valign">微软</span></a></div>
-          <div id="class-card2"><a href="#google-span"><span id="class-name" class="mdui-valign">谷歌</span></a></div>
-          <div id="class-card3"><a href="#apple-span"><span id="class-name" class="mdui-valign">苹果</span></a></div>
-          <div id="class-card4"><a href="#design-span"><span id="class-name" class="mdui-valign">创作</span></a></div>
+          <div id="class-card1"><a href="#microsoft.html"><span id="class-name" class="mdui-valign">微软</span></a></div>
+          <div id="class-card2"><a href="#google.html"><span id="class-name" class="mdui-valign">谷歌</span></a></div>
+          <div id="class-card3"><a href="#apple.html"><span id="class-name" class="mdui-valign">苹果</span></a></div>
+          <div id="class-card4"><a href="#DIY.html"><span id="class-name" class="mdui-valign">创作</span></a></div>
       </div>
 
       <div id="microsoft-span"><a href="microsoft.html" class="span">微软</a></div>
@@ -95,15 +93,12 @@
           <div id="wallpaper-card2"><a href="https://i.loli.net/2020/01/08/VmAZQMlPzUqDjcC.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/VmAZQMlPzUqDjcC.jpg"/></a></div>
           <div id="wallpaper-card3"><a href="https://i.loli.net/2020/01/08/l5MvJzQmbACaBKs.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/l5MvJzQmbACaBKs.jpg"/></a></div>
           <div id="wallpaper-card4"><a href="https://i.loli.net/2020/01/08/dngHxDzI9783akT.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/dngHxDzI9783akT.jpg"/></a></div>
-
-
       
     <div id="fluentdesign-span"><a href="fluentdesign.html" class="span">Fluent Design X Office</a></div>
         <div id="wallpaper-card1"><a href="https://i.loli.net/2020/01/08/cq3XN9YSphk5Jyv.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/cq3XN9YSphk5Jyv.jpg"/></a></div>
         <div id="wallpaper-card2"><a href="https://i.loli.net/2020/01/08/bv7IQjz8gDHLh5T.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/bv7IQjz8gDHLh5T.jpg"/></a></div>
         <div id="wallpaper-card3"><a href="https://i.loli.net/2020/01/08/UYrnLDNEFhvMd6X.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/UYrnLDNEFhvMd6X.jpg"/></a></div>
         <div id="wallpaper-card4"><a href="https://i.loli.net/2020/01/08/pf7qnzV1BN9ytHb.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/pf7qnzV1BN9ytHb.jpg"/></a></div>
-
 
     <div id="apple-span"><a href="apple.html" class="span">苹果</a></div>
         <div id="wallpaper-card1"><a href="https://cdn.onemorething.nl/uploads//2016/08/wallpaper-1-sierra.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/10/9DsEirzClwQoZxm.jpg"/></a></div>
@@ -138,8 +133,8 @@
       <h5>如有侵权，请联系网站删除。</h5>
 
       <div class="mdui-hidden-md-down"> <div id="pay-span">赞赏</div>
-      <h2>如果您喜欢这个网站，可以通过以下方式赞赏我们。</h2>
-      <h2>目前，网站的体验不佳，所以，赞赏会全部用于提高网站的使用体验。</h2>
+        <h2>如果您喜欢这个网站，可以通过以下方式赞赏我们。</h2>
+        <h2>目前，网站的体验不佳，所以，赞赏会全部用于提高网站的使用体验。</h2>
         <img id="wx-pay" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/100554/37/11034/155182/5e260159Ef5d7f13b/f3138774ef68e5a6.png"/>
         <img id="ali-pay" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/95802/39/11123/124619/5e260433Ea5576b68/58c4a31e9d6254ea.jpg"/>
       </div>

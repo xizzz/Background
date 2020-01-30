@@ -14,52 +14,47 @@
     <div id="appbar" class="mdui-appbar  mdui-appbar-fixed  mdui-shadow-1">
       <div  id="toolbar" class="mdui-toolbar mdui-color-theme">
         <span id="name" class="mdui-typo-title span">Democratic Design</span>
-          <div class="mdui-toolbar-spacer"></div>
-            <div id="topnamediv">
-              <span id="topname1"><a href="index.html"  class="span">首页</a><span>
-              <span id="topname2"><a href="javascript:;"  class="span">作品集</a></span>
-              <span id="topname3"><a href="javascript:;" mdui-dialog="{target: '#example-1'}"  class="span">帮助</a></span>
-              <span id="topname4"><a href="#about-span"  class="span">关于</a></span>
-          </div>
+        <div class="mdui-toolbar-spacer"></div>
+        <div id="topnamediv">
+          <span id="topname1"><a href="index.html"  class="span">首页</a><span>
+          <span id="topname2"><a href="javascript:;"  class="span">作品集</a></span>
+          <span id="topname3"><a href="javascript:;" mdui-dialog="{target: '#example-1'}"  class="span">帮助</a></span>
+          <span id="topname4"><a href="#about-span"  class="span">关于</a></span>
+        </div>
       </div>
     </div>
 
     <body class="mdui-drawer-body-left mdui-appbar-with-toolbar">
       <!-- 工   具   栏 -->
-      <div class="mdui-hidden-lg-up">
-<div class="mdui-appbar mdui-color-theme mdui-appbar-fixed mdui-shadow-0">
-<div  id="toolbar" class="mdui-toolbar  mdui-color-white mdui-shadow-2">
-<a href="javascript:;" mdui-drawer="{target: '#drawer'}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
-<span class="mdui-typo-title"></span>
-<div class="mdui-toolbar-spacer"></div>
-<div id="search" class="mdui-textfield mdui-textfield-expandable mdui-float-right">
-<button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
-</div>
-<a href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="changemode()"><i id="changeColor"  class="mdui-icon material-icons">brightness_4</i></a>
-<a href="javascript:;"  mdui-dialog="{target: '#example-1'}" href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
-</div>
-</div>
+  <div class="mdui-hidden-lg-up">
+    <div class="mdui-appbar mdui-color-theme mdui-appbar-fixed mdui-shadow-0">
+    <div  id="toolbar" class="mdui-toolbar  mdui-color-white mdui-shadow-2">
+    <a href="javascript:;" mdui-drawer="{target: '#drawer'}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
+    <span class="mdui-typo-title"></span>
+    <div class="mdui-toolbar-spacer"></div>
+    <div id="search" class="mdui-textfield mdui-textfield-expandable mdui-float-right">
+    <button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
+    </div>
+    <a href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="changemode()"><i id="changeColor"  class="mdui-icon material-icons">brightness_4</i></a>
+    <a href="javascript:;"  mdui-dialog="{target: '#example-1'}" href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
+    </div>
+  </div>
       <!-- 抽  屉  栏  -->
 <div id="drawer" class="mdui-drawer mdui-drawer-close mdui-shadow-8">
-<ul class="mdui-list" mdui-collapse="{accordion: true}">
-
-<li class="mdui-list-item mdui-ripple">
-<div class="mdui-list-item-content">首页</div>
-</li>
-
-<li class="mdui-collapse-item mdui-collapse-item-open">
-<div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-<div class="mdui-list-item-content">壁纸</div>
-<i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
-</div>
-<ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
-<a href="mdl.html"> <li class="mdui-list-item mdui-ripple">微软</li></a>
-<li class="mdui-list-item mdui-ripple">苹果 Mac os X</li>
-<li class="mdui-list-item mdui-ripple">谷歌</li>
-<li class="mdui-list-item mdui-ripple">创作</li>
-</ul>
-</li>
-
+  <ul class="mdui-list" mdui-collapse="{accordion: true}">
+  <li class="mdui-list-item mdui-ripple">
+    <div class="mdui-list-item-content">首页</div></li>
+  <li class="mdui-collapse-item mdui-collapse-item-open">
+    <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+    <div class="mdui-list-item-content">壁纸</div><i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+  </div>
+  <ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
+    <a href="mdl.html"> <li class="mdui-list-item mdui-ripple">微软</li></a>
+    <li class="mdui-list-item mdui-ripple">苹果</li>
+    <li class="mdui-list-item mdui-ripple">谷歌</li>
+    <li class="mdui-list-item mdui-ripple">创作</li>
+  </ul>
+  </li>
 <li class="mdui-list-item mdui-ripple">
 <div class="mdui-list-item-content">关于我们</div>
 </li>

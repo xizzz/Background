@@ -276,6 +276,7 @@ h5{
     width: 500px;
     height: 280px;
     border-radius: 20px;
+    margin-right: 800px;
 }
 @media screen and (max-width:1840px) { 
     .mdui-container {

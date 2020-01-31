@@ -119,11 +119,18 @@ a{
     margin-left: 0px;
     border-radius: 20px;
 }
+#portfolio-span{
+    font-size: 42px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 0px;
+}
 #microsoft-span{
     font-size: 42px;
     font-weight: 600;
     position: relative;
-    margin-top: 180px;
+    margin-top: 40px;
     margin-left: 0px;
 }
 #google-span{
@@ -258,7 +265,18 @@ h5{
     font-size: 18px;
 }
 
+.swiper-container {
+    width: 98%;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 40px;
+} 
 
+#swiper-img{
+    width: 500px;
+    height: 280px;
+    border-radius: 20px;
+}
 @media screen and (max-width:1840px) { 
     .mdui-container {
         width: 900px;

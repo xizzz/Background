@@ -60,7 +60,7 @@
         </ul>
       </li>
       <li class="mdui-list-item mdui-ripple">
-        <div class="mdui-list-item-content">关于我们</div>
+        <div class="mdui-list-item-content">关于</div>
       </li>
       <li class="mdui-list-item mdui-ripple">
         <div class="mdui-list-item-content">赞赏</div>
@@ -68,11 +68,12 @@
     </div>
   </div>
 
+      <!-- 对 话 框 -->
   <div class="mdui-dialog" id="example-1">
     <div class="mdui-dialog-title">设置</div>
     <div class="mdui-dialog-content">暗黑模式:<a href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="changemode()" mdui-tooltip="{content: '点击切换'}"><i id="theme-btn"  class="mdui-icon material-icons">brightness_4</i></a></div>
     <div class="mdui-dialog-actions">
-      <button class="mdui-btn mdui-ripple" mdui-dialog-close>好</button>
+      <button id="good" class="mdui-btn mdui-ripple" mdui-dialog-close>好</button>
     </div>
   </div>
                         <!-- 容器 -->
@@ -168,14 +169,5 @@
 
     })        
     mySwiper.scrollbar.updateSize();
-    </script>
-    
-  <script>
-    function dayModeFunction(){
-      $('body').removeClass('mdui-theme-layout-dark');
-}
-    function darkModeFunction(){
-      $('body').addClass('mdui-theme-layout-dark');
-}
-</script>
+    </script> 
 </html>

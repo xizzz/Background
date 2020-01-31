@@ -352,8 +352,8 @@ h5{
 @media screen and (max-width:375px) { 
 #wallpaper-card1,#wallpaper-card2,#wallpaper-card3,#wallpaper-card4{
         height: 200px;
-        width: 350px;
-        margin-top: 20px;
+        width: 360px;
+        margin-top: 10px;
         margin-left: 0px;
     }
 }
@@ -361,7 +361,17 @@ h5{
 @media screen and (max-width: 375px) { 
     #banner-img {
         width: 360px;
-        height: 200px;
+        height: 180px;
+        }  
+    .swiper-container{
+        width: 360px;
+        height: 100px;
+        margin-top: 20px;
+        }
+    #swiper-img{
+        width: 160px;
+        height: 100px;
+        border-radius: 10px;
         }  
     }
 @media screen and (max-width: 375px) { 
@@ -371,6 +381,9 @@ h5{
     #fluentdesign-span,#apple-span,#google-span,#design-span,#about-span{
         margin-top: 900px;
     }  
+    #portfolio-span{
+        margin-top: 20px;
+        }
 }   
 
 @media screen and (max-width: 375px) { 
@@ -379,3 +392,18 @@ h5{
         width: 360px;
         }
 }  
+#good{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.mdui-ripple{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.mdui-list-item-content{
+    font-size: 24px;
+    font-weight: 600;
+}

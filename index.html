@@ -89,17 +89,20 @@
           <div id="class-card4"><a href="#DIY.html"><span id="class-name" class="mdui-valign">创作</span></a></div>
       </div>
 
-      <div class="swiper-container global-promotion">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide hk"><img src="./images/p_hk.png"></div>
-          <div class="swiper-slide au"><img src="./images/p_au.png"></div>
-          <div class="swiper-slide en"><img src="./images/p_en.png"></div>
-          <div class="swiper-slide jp"><img src="./images/p_jp.png"></div>
-          <div class="swiper-slide us"><img src="./images/p_us.png"></div>
-        </div>
-      </div>
+      <div id="portfolio-span"><a href="microsoft.html" class="span">作品集</a></div>
 
-      <div id="microsoft-span"><a href="microsoft.html" class="span">微软</a></div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img id="swiper-img" src="https://i.loli.net/2020/01/08/ps7Ee8huYOgBNov.jpg"/></div>
+            <div class="swiper-slide"><img id="swiper-img" src="https://i.loli.net/2020/01/10/9DsEirzClwQoZxm.jpg"/></div>
+            <div class="swiper-slide"><img id="swiper-img" src="https://i.loli.net/2020/01/08/VmAZQMlPzUqDjcC.jpg"/></div>
+            <div class="swiper-slide"><img id="swiper-img" src="https://i.loli.net/2020/01/08/VmAZQMlPzUqDjcC.jpg"/></div>
+        </div>
+        <!-- 如果需要滚动条 -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+      <div id="microsoft-span"><a href="" class="span">微软</a></div>
           <div id="wallpaper-card1"><a href="https://i.loli.net/2020/01/08/ps7Ee8huYOgBNov.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/ps7Ee8huYOgBNov.jpg"/></a></div>
           <div id="wallpaper-card2"><a href="https://i.loli.net/2020/01/08/VmAZQMlPzUqDjcC.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/VmAZQMlPzUqDjcC.jpg"/></a></div>
           <div id="wallpaper-card3"><a href="https://i.loli.net/2020/01/08/l5MvJzQmbACaBKs.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/08/l5MvJzQmbACaBKs.jpg"/></a></div>
@@ -152,7 +155,22 @@
     </div>
     </div>
 
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
+
   </body>
+  <script>        
+    var mySwiper = new Swiper ('.swiper-container', {
+      spaceBetween : 150,
+      loop: false, // 循环模式选项
+      slidesPerView : 2, 
+      
+      // 如果需要滚动条
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    })        
+    </script>
+    
   <script>
     function dayModeFunction(){
       $('body').removeClass('mdui-theme-layout-dark');

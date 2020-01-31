@@ -321,7 +321,7 @@ h5{
     #swiper-img{
         width: 180px;
         height: 100px;
-        border-radius: 20px;
+        border-radius: 10px;
         }  
     } 
 @media screen and (max-width:414px) { 

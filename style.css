@@ -332,6 +332,46 @@ h5{
         border-radius: 10px;
         }  
     } 
+
+@media screen and (max-width:432px) { 
+    .mdui-container {
+        width: 432px;
+        margin: 0px;
+        }  
+    #banner-img {
+        width: 412px;
+        height: 236px;
+        margin-top: 0px;
+    }
+    #background-img {
+        width: 412px;
+        height: 236px;
+        }  
+    #wallpaper-card1,#wallpaper-card2,#wallpaper-card3,#wallpaper-card4 {
+        height: 236px;
+        width: 412px;
+        margin-top: 20px;
+        margin-left: 0px;
+        }
+    .swiper-container{
+        width: 412px;
+        height: 120px;
+    }
+    #swiper-img{
+        width: 190px;
+        height: 120px;
+        border-radius: 10px;
+        }  
+    } 
+    @media screen and (max-width: 432px) { 
+    #microsoft-span{
+        margin-top: 20px;
+    }     
+    #fluentdesign-span,#apple-span,#google-span,#design-span, #about-span{
+        margin-top: 1060px;
+    } 
+} 
+        
 @media screen and (max-width:414px) { 
 #wallpaper-card1,#wallpaper-card2,#wallpaper-card3,#wallpaper-card4 {
         height: 240px;

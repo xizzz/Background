@@ -2,22 +2,23 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
         <link href="https://cdn.bootcss.com/mdui/0.4.3/css/mdui.min.css" rel="stylesheet">
-        <link href="../style.css" rel="stylesheet">
+        <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdn.bootcss.com/mdui/0.4.3/js/mdui.min.js"></script>
+        <link href="../style.css" rel="stylesheet">
+        <script src="../js.js"></script>
     </head>
     <body id="body" class="mdui-appbar-with-toolbar  mdui-bottom-nav-fixed">
                     <!-- 工   具   栏 -->
-    <div id="appbar" class="mdui-appbar mdui-color-white mdui-appbar-fixed  mdui-shadow-1">
-      <div  id="toolbar" class="mdui-toolbar">
-        <span id="name" class="mdui-typo-title">Apple 苹果</span>
+    <div id="appbar" class="mdui-appbar mdui-appbar-fixed  mdui-shadow-1">
+      <div  id="toolbar" class="mdui-toolbar mdui-color-theme">
+        <span id="name" class="mdui-typo-title span">Apple 苹果</span>
           <div class="mdui-toolbar-spacer"></div>
             <div id="topnamediv">
-              <span id="topname1"><a href="index.html">首页</a><span>
-              <span id="topname2">作品集</span>
-              <span id="topname3">帮助</span>
-              <span id="topname4"><a href="#about-span">关于</a></span>
+              <span id="topname1"><a href="index.html" class="span">首页</a><span>
+              <span id="topname2"><a href="index.html" class="span">作品集</a></span>
+              <span id="topname3"><a href="index.html" class="span">帮助</a></span>
+              <span id="topname4"><a href="#about-span" class="span">关于</a></span>
           </div>
       </div>
     </div>
@@ -30,12 +31,7 @@
           <a href="javascript:;" mdui-drawer="{target: '#drawer'}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
           <span class="mdui-typo-title">Home</span>
               <div class="mdui-toolbar-spacer"></div>
-          <div id="search" class="mdui-textfield mdui-textfield-expandable mdui-float-right">
-            <button class="mdui-textfield-icon mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></button>
-            <input class="mdui-textfield-input" type="text" placeholder="Search"/>
-            <button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
-          </div>
-        <a href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="dayModeFunction()" mdui-tooltip="{content: '点击/双击开关'}" ondblclick="darkModeFunction()"><i id="changeColor"  class="mdui-icon material-icons">brightness_4</i></a>
+        <a  class="mdui-btn mdui-btn-icon" onclick="changemode()" mdui-tooltip="{content: '点击/双击开关'}" ><i id="theme-btn"  class="mdui-icon material-icons">brightness_4</i></a>
         <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
       </div>
     </div>
@@ -43,24 +39,24 @@
       <!-- 抽  屉  栏  -->
       <div id="drawer" class="mdui-drawer mdui-shadow-8">
         <ul class="mdui-list" mdui-collapse="{accordion: true}">
-      <li class="mdui-list-item mdui-ripple">
+      <li class="mdui-list-item mdui-ripple"><div class="mdui-list-item-content">首页</div>
       </li> 
 
       <li class="mdui-collapse-item mdui-collapse-item-open">
         <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-          <div class="mdui-list-item-content">壁纸</div>
+          <div class="mdui-list-item-content">分类</div>
           <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
       </div>
       <ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
         <a href="mdl.html"> <li class="mdui-list-item mdui-ripple">微软</li></a>
-        <li class="mdui-list-item mdui-ripple">苹果 Mac os X</li>
+        <li class="mdui-list-item mdui-ripple">苹果</li>
         <li class="mdui-list-item mdui-ripple">谷歌</li>
         <li class="mdui-list-item mdui-ripple">原创</li>
       </ul>
     </li>
 
     <li class="mdui-list-item mdui-ripple">
-        <div class="mdui-list-item-content">关于我们</div>
+        <div class="mdui-list-item-content">关于</div>
     </li>
 
     <li class="mdui-list-item mdui-ripple">
@@ -69,10 +65,11 @@
 
       </div>
     </div>
+
     <!-- -->
         <div id="container" class="mdui-container mdui-center">
           <div>
-            <div id="banner-span">首页</div>
+            <div id="banner-span"><a class="span" href="index.html">首页</a></div>
               <div id="banner"><img id="banner-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/99939/11/10951/79234/5e282392E893b8d8e/8bcf4f484f7c025a.png"/></div>
           </div>
 
@@ -80,7 +77,6 @@
       <div id="wallpaper-card1"><a href="https://i.loli.net/2020/01/21/Nmt1WTu4j8VBOod.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/21/Nmt1WTu4j8VBOod.jpg"/></a></div>
       <div id="wallpaper-card4"><a href="https://i.loli.net/2020/01/21/AbqOrQ8fjxypBnP.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/21/AbqOrQ8fjxypBnP.jpg"/></a></div>
       
-
 
     <div id="apple-div2">Mojave<a id="a-download" href="https://www.lanzous.com/i8t46uh">下载原图</a></div>
       <div id="wallpaper-card1"><a href="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/105028/9/11032/2005512/5e25fbf1E2cc8101d/e6870a3ffeeaa177.jpg"> <img id="background-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/105028/9/11032/2005512/5e25fbf1E2cc8101d/e6870a3ffeeaa177.jpg"/></a></div>
@@ -123,11 +119,4 @@
 
   </body>
   <script>
-    function dayModeFunction(){
-      $('body').addClass('mdui-theme-layout-dark');
-}
-    function darkModeFunction(){
-      $('body').removeClass('mdui-theme-layout-dark');
-}
-</script>
 </html>

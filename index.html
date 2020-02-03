@@ -5,10 +5,10 @@
         <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">  
         <link href="https://cdn.bootcss.com/mdui/0.4.3/css/mdui.min.css" rel="stylesheet">
-        <link href="../style.css" rel="stylesheet">
         <link href="../max-style.css" rel="stylesheet" media="screen and (min-width:1024px)">
         <script src="https://cdn.bootcss.com/mdui/0.4.3/js/mdui.min.js"></script>
         <script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
+        <link href="../style.css" rel="stylesheet">
         <script src="../js.js"></script>
     </head>
     <body id="body" class="mdui-appbar-with-toolbar  mdui-appbar-with-toolbar mdui-bottom-nav-fixed">
@@ -157,15 +157,14 @@
   </body>
   <script>        
     var mySwiper = new Swiper ('.swiper-container', {
-      loop: true, // 循环模式选项
+      loop: true, 
       autoplay:true,
       slidesPerView : 3,
       spaceBetween : '45%',
       autoplay: {
-    delay: 3000,//2.5秒切换一次
-    disableOnInteraction: false,
+        delay: 3000,
+        disableOnInteraction: false,
     },
-
     })        
     mySwiper.scrollbar.updateSize();
     </script> 

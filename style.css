@@ -333,28 +333,28 @@ h5{
         }  
     } 
 
-@media screen and (max-width:432px) { 
+@media screen and (max-width:360px) { 
     .mdui-container {
-        width: 432px;
+        width: 360px;
         margin: 0px;
         }  
     #banner-img {
-        width: 412px;
+        width: 340px;
         height: 236px;
         margin-top: 0px;
     }
     #background-img {
-        width: 412px;
+        width: 340px;
         height: 236px;
         }  
     #wallpaper-card1,#wallpaper-card2,#wallpaper-card3,#wallpaper-card4 {
+        width: 340px;
         height: 236px;
-        width: 412px;
         margin-top: 20px;
         margin-left: 0px;
         }
     .swiper-container{
-        width: 412px;
+        width: 340px;
         height: 120px;
     }
     #swiper-img{
@@ -363,7 +363,7 @@ h5{
         border-radius: 10px;
         }  
     } 
-    @media screen and (max-width: 432px) { 
+    @media screen and (max-width: 360px) { 
     #microsoft-span{
         margin-top: 20px;
     }     

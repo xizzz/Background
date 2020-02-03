@@ -242,11 +242,11 @@ a{
 }
 
 #ms-page-span{
-    margin-top: 200px;
-    margin-left: 0px;
     font-size: 42px;
     font-weight: 600;
     position: relative;
+    margin-top: 180px;
+    margin-left: 0px;
 }
 h2{
     margin-top: 10px;

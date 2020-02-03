@@ -6,7 +6,7 @@
         <link href="https://cdn.bootcss.com/mdui/0.4.3/css/mdui.min.css" rel="stylesheet">
         <link href="../style.css" rel="stylesheet">
         <script src="https://cdn.bootcss.com/mdui/0.4.3/js/mdui.min.js"></script>
-    </head>
+        <script src="../js.js"></script>
     <body id="body" class="mdui-appbar-with-toolbar  mdui-bottom-nav-fixed">
                     <!-- 工   具   栏 -->
     <div id="appbar" class="mdui-appbar mdui-color-white mdui-appbar-fixed  mdui-shadow-1">
@@ -23,20 +23,14 @@
       </div>
     </div>
 
-    <body class="mdui-theme-layout-dark mdui-drawer-body-left mdui-appbar-with-toolbar">
       <!-- 工   具   栏 -->
     <div class="mdui-hidden-lg-up">
+    <body class="mdui-theme-layout-dark mdui-drawer-body-left mdui-appbar-with-toolbar"></body>
       <div class="mdui-appbar mdui-color-theme mdui-appbar-fixed mdui-shadow-0">
         <div  id="toolbar" class="mdui-toolbar  mdui-color-white mdui-shadow-2">
           <a href="javascript:;" mdui-drawer="{target: '#drawer'}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
           <span class="mdui-typo-title">Home</span>
               <div class="mdui-toolbar-spacer"></div>
-          <div id="search" class="mdui-textfield mdui-textfield-expandable mdui-float-right">
-            <button class="mdui-textfield-icon mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></button>
-            <input class="mdui-textfield-input" type="text" placeholder="Search"/>
-            <button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
-          </div>
-        <a href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="dayModeFunction()" mdui-tooltip="{content: '点击/双击开关'}" ondblclick="darkModeFunction()"><i id="changeColor"  class="mdui-icon material-icons">brightness_4</i></a>
         <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
       </div>
     </div>
@@ -45,59 +39,62 @@
       <div id="drawer" class="mdui-drawer mdui-shadow-8">
         <ul class="mdui-list" mdui-collapse="{accordion: true}">
       <li class="mdui-list-item mdui-ripple">
+        <div class="mdui-list-item-content">首页</div>
       </li> 
 
       <li class="mdui-collapse-item mdui-collapse-item-open">
         <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-          <div class="mdui-list-item-content">壁纸</div>
+          <div class="mdui-list-item-content">分类</div>
           <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
       </div>
       <ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
-        <a href="mdl.html"> <li class="mdui-list-item mdui-ripple">微软</li></a>
-        <li class="mdui-list-item mdui-ripple">苹果 Mac os X</li>
-        <li class="mdui-list-item mdui-ripple">谷歌</li>
-        <li class="mdui-list-item mdui-ripple">原创</li>
+          <a href="microsoft.html"><li class="mdui-list-item mdui-ripple">微软</li></a>
+          <a href="apple.html"><li class="mdui-list-item mdui-ripple">苹果</li></a>
+          <a href="google.html"><li class="mdui-list-item mdui-ripple">谷歌</li></a>
+          <a href="DIY.html"><li class="mdui-list-item mdui-ripple">创作</li></a>
       </ul>
     </li>
 
     <li class="mdui-list-item mdui-ripple">
-        <div class="mdui-list-item-content">关于我们</div>
+        <div class="mdui-list-item-content">关于</div>
     </li>
 
     <li class="mdui-list-item mdui-ripple">
       <div class="mdui-list-item-content">赞赏</div>
     </li>
 
+    <a id="changemode-btn" href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="changemode()"><i id="theme-btn"  class="mdui-icon material-icons">brightness_4</i></a>
+
       </div>
     </div>
     <!-- -->
         <div id="container" class="mdui-container mdui-center">
 
-    <div id="microsoft-span"><a id="a-href">New!</a> 寒来暑往的艺术 seasonal Art PREMIUM</div>
+    <div id="ms-page-span"><a id="a-href">New!</a> 寒来暑往的艺术 seasonal Art PREMIUM</div>
       <div id="wallpaper-card1"><a href="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/102423/39/10890/1241474/5e233c05Eed3a0e9d/f8f83bdff01ce55f.jpg"> <img id="background-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/102423/39/10890/1241474/5e233c05Eed3a0e9d/f8f83bdff01ce55f.jpg"/></a></div>
       <div id="wallpaper-card2"><a href="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/86067/40/10947/1434015/5e233c0bEd880f2db/a9fa1caa2b672c4b.jpg"> <img id="background-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/86067/40/10947/1434015/5e233c0bEd880f2db/a9fa1caa2b672c4b.jpg"/></a></div>
       <div id="wallpaper-card3"><a href="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/95792/29/10977/1178852/5e233c08E11d6f7a6/70be65d6976f4a60.jpg"> <img id="background-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/95792/29/10977/1178852/5e233c08E11d6f7a6/70be65d6976f4a60.jpg"/></a></div>
       <div id="wallpaper-card4"><a href="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/102077/26/10774/1329648/5e233c08Ede17e0c2/811c8be09473510a.jpg"> <img id="background-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/102077/26/10774/1329648/5e233c08Ede17e0c2/811c8be09473510a.jpg"/></a></div>
 
-    <div id="microsoft-span"><a id="a-href">New!</a> 寒来暑往的艺术 (2)</div>
+    <div id="ms-page-span"><a id="a-href">New!</a> 寒来暑往的艺术 (2)</div>
       <div id="wallpaper-card1"><a href="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/87795/14/10964/518528/5e233c0dE52c92e70/eb51bc2741e0d339.jpg"> <img id="background-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/87795/14/10964/518528/5e233c0dE52c92e70/eb51bc2741e0d339.jpg"/></a></div>
       <div id="wallpaper-card2"><a href="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/89176/19/10848/432945/5e233d0eE815a75ed/0aa7401380a6cfcc.jpg"> <img id="background-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/89176/19/10848/432945/5e233d0eE815a75ed/0aa7401380a6cfcc.jpg"/></a></div>
       <div id="wallpaper-card3"><a href="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/85002/7/11091/549619/5e233c10E83ab00aa/1422a0f9a32148ad.jpg"> <img id="background-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/85002/7/11091/549619/5e233c10E83ab00aa/1422a0f9a32148ad.jpg"/></a></div>
       <div id="wallpaper-card4"><a href="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/98692/28/10870/647135/5e233c00E9eda9b39/45b7eec07d2c4036.jpg"> <img id="background-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/98692/28/10870/647135/5e233c00E9eda9b39/45b7eec07d2c4036.jpg"/></a></div>
 
-    <div id="microsoft-span">荒野精选 Best of wild</div>
+    <div id="ms-page-span">荒野精选 Best of wild</div>
       <div id="wallpaper-card1"><a href="https://i.loli.net/2020/01/11/dxcCklhZGRX1roB.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/11/dxcCklhZGRX1roB.jpg"/></a></div>
       <div id="wallpaper-card2"><a href="https://i.loli.net/2020/01/11/Nm9gJOYRz1sr2ol.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/11/Nm9gJOYRz1sr2ol.jpg"/></a></div>
       <div id="wallpaper-card3"><a href="https://i.loli.net/2020/01/11/KsMhAWPIBmDJrpE.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/11/KsMhAWPIBmDJrpE.jpg"/></a></div>
       <div id="wallpaper-card4"><a href="https://i.loli.net/2020/01/11/9EcjPKxwaky45MN.jpg"> <img id="background-img" src="https://i.loli.net/2020/01/11/9EcjPKxwaky45MN.jpg"/></a></div>
 
-    <div id="microsoft-span">荒野精选 (2)</div>
+    <div id="ms-page-span">荒野精选 (2)</div>
       <div id="wallpaper-card1"><a href="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/106754/40/10872/1364121/5e233e8eE0a5ad293/b236491fee69bdde.jpg"> <img id="background-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/106754/40/10872/1364121/5e233e8eE0a5ad293/b236491fee69bdde.jpg"/></a></div>
       <div id="wallpaper-card2"><a href="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/109798/5/4685/1149616/5e233e8dEa56294a5/fd5f573cd28fc005.jpg"> <img id="background-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/109798/5/4685/1149616/5e233e8dEa56294a5/fd5f573cd28fc005.jpg"/></a></div>
       <div id="wallpaper-card3"><a href="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/98994/22/10866/857240/5e233e8bEd301a36c/7d981a7428ac923a.jpg"> <img id="background-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/98994/22/10866/857240/5e233e8bEd301a36c/7d981a7428ac923a.jpg"/></a></div>
       <div id="wallpaper-card4"><a href="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/105804/20/10984/545011/5e233e89E43a65c8d/bc4330eea1c09d88.jpg"> <img id="background-img" src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/105804/20/10984/545011/5e233e89E43a65c8d/bc4330eea1c09d88.jpg"/></a></div>
 
-      <div id="about-span">关于我们</div>
+      <div id="ms-page-span">关于我们</div>
       <h2>这是由微软、谷歌和苹果爱好者创建的周边壁纸网站，</h2>
       <h2>是采用<a id="a-href" href="https://www.mdui.org/">MDUI</a>和<a id="a-href" href="https://sm.ms/">SM.MS</a>创建的。</h2>
       <h2>简约、优雅、民主设计。</h2>

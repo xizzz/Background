@@ -17,7 +17,7 @@
             <div id="topnamediv">
               <span id="topname1"><a href="index.html" class="span">首页</a><span>
               <span id="topname2"><a href="index.html" class="span">作品集</a><span>
-              <span id="topname3"><a href="" class="span">帮助</a><span>
+                <span id="topname3"><a href="javascript:;" mdui-dialog="{target: '#example-1'}" class="span">帮助</a></span>
               <span id="topname4"><a href="#about-span" class="span">关于</a><span>
             </span>
           </div>
@@ -63,10 +63,15 @@
     <li class="mdui-list-item mdui-ripple">
       <div class="mdui-list-item-content">赞赏</div>
     </li>
-
-    <a id="changemode-btn" href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="changemode()"><i id="theme-btn"  class="mdui-icon material-icons">brightness_4</i></a>
-
       </div>
+    </div>
+          <!-- 对 话 框 -->
+    <div class="mdui-dialog" id="example-1">
+      <div class="mdui-dialog-title">设置</div>
+        <a id="changemode-btn" href="javascript:;" class="mdui-btn mdui-btn-icon" onclick="changemode()"><i id="theme-btn"  class="mdui-icon material-icons">brightness_4</i></a>
+      <div class="mdui-dialog-actions">
+      <button id="good" class="mdui-btn mdui-ripple" mdui-dialog-close>好</button>
+    </div>
     </div>
     <!-- -->
         <div id="container" class="mdui-container mdui-center">

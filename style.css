@@ -57,8 +57,8 @@ a{
     float: left;
     margin-top: 30px;
     margin-left: 0px;
-    background: #81B900;
-    box-shadow: 0px 4px 10px rgb(157, 184, 93);
+    background: #424242;
+    box-shadow: 0px 4px 10px #424242;
     animation-duration: 1s;
     border-radius: 10px;
 }
@@ -68,8 +68,8 @@ a{
     float: left;
     margin-top: 30px;
     margin-left: 20px;
-    background: #EEB211;
-    box-shadow: 0px 4px 10px #EEB211;
+    background: #424242;
+    box-shadow: 0px 4px 10px #424242;
     border-radius: 10px;
 }
 #class-card3{
@@ -88,8 +88,8 @@ a{
     float: left;
     margin-top: 30px;
     margin-left: 20px;
-    background: #2196F3;
-    box-shadow: 0px 4px 10px #64B5F6;
+    background: #424242;
+    box-shadow: 0px 4px 10px #424242;
     border-radius: 10px;
 }
 #class-name{
